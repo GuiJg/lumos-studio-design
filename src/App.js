@@ -3,6 +3,7 @@ import Header from './header';
 import BannerSection from './BannerSection';
 import AboutSection from './AboutSection';
 import ServicesSection from './ServicesSection';
+import ProjectSection from './ProjectSection';
 import './App.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
             <BannerSection/>
             <AboutSection/>
             <ServicesSection/>
+            <ProjectSection/> 
         </div>
     );
 }

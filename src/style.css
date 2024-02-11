@@ -22,11 +22,13 @@ header {
    padding: 3% 5% 2% 5%;
    width: 100%;
    position: fixed;
+   z-index: 9
+   ;
 }
 
 .header-menu {
    display: flex;
-   justify-content: center;
+   justify-content: flex-start; 
    align-items: center;
    gap: 40px;
 }
@@ -376,12 +378,151 @@ button:active .button-text {
    border: 1px solid #D3051E;
    background-color: transparent;
    border-radius: 10em;
-   padding: 1.5%;
+   padding: 1%;
    cursor: pointer;
-   width: 25%;
+   width: 15%;
    transition: 0.5s;
 }
 
 .button-services:hover{
    background-color: #D3051E;
+}
+
+.button-services:active{
+   transform: scale(0.96);
+}
+
+.button-services p{
+   font-size: 1rem;
+   color: #fff;
+}
+
+.project-page{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 2rem;
+   padding: 5% 10% 5% 10%;
+}
+
+.title-page{
+   display: flex;
+   justify-content: start;
+   align-self: start;
+   border-bottom: 1px solid #D3051E;
+   margin: 0% 0.5% 5% 0.5%;
+   width: 98.9%;
+}
+
+.title-page h2{
+   font-family: 'Sulphur Point', sans-serif;
+   font-size: 4.5rem;
+   font-weight: 400;
+   color: #fff;
+}
+
+.container-project{
+   display:  grid;
+   grid-template-columns: repeat(2, 1fr);
+   justify-content: center;
+   align-items: center;
+   gap: 0.1rem;
+}
+
+.project{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+   gap: 3rem;
+   cursor: pointer;
+   position: relative;
+   padding: 1%;
+}
+
+.image-project{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid #ffffff42;
+   transition: 0.5s;
+}
+
+.image-project img{
+   width: 100%;
+   height: auto;
+}
+
+.title-project{
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   align-items: start;
+   text-align: start;
+   gap: 1rem;
+   opacity: 0;
+   position: absolute;
+   transform: translate(3%, 140%);
+   transition: 0.5s;
+}
+
+.project:hover .title-project{
+   opacity: 1;
+}
+
+.project:hover .image-project{
+   border: 1px solid #fff;
+   filter: brightness(30%);
+}
+
+.title-project p{
+   font-size: 1.1rem;
+   font-weight: 400;
+   color: #c6c3c3;
+}
+
+.title-div{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 1rem;
+}
+
+.title-div h2{
+   font-size: 2rem;
+   font-weight: 200;
+   text-transform: uppercase;
+   color: #fff;
+}
+
+.div{
+   background-color: #D3051E;
+   width: 20rem;
+   height: 1px;
+}
+
+.button-project{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid #D3051E;
+   background-color: transparent;
+   border-radius: 10em;
+   padding: 1.1%;
+   cursor: pointer; 
+   width: 17%;
+   transition: 0.5s;
+}
+
+.button-project p{
+   font-size: 1rem;
+   color: #fff;
+}
+
+.button-project:hover{
+   background-color: #D3051E;
+}
+
+.button-project:active{
+   transform: scale(0.96);
 }

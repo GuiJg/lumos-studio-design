@@ -19,7 +19,7 @@ function Banner() {
                 <h1>
                     Um estúdio que <br />
                     te faz crescer.
-                    </h1>
+                </h1>
             </div>
         </section>
     )
