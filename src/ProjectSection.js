@@ -9,7 +9,7 @@ function ProjectSection() {
             <div className="container-project">
                 <div className="project">
                     <div className="image-project">
-                        <img src="projeto (1).jpg" alt="" />
+                        <img src="project 1.png" alt="" />
                     </div>
                     <div className="title-project">
                         <div className="title-div">
@@ -24,7 +24,7 @@ function ProjectSection() {
                 </div>
                 <div className="project">
                     <div className="image-project">
-                        <img src="projeto (2).jpg" alt="" />
+                        <img src="project 2.png" alt="" />
                     </div>
                     <div className="title-project">
                         <div className="title-div">
@@ -39,7 +39,7 @@ function ProjectSection() {
                 </div>
                 <div className="project">
                     <div className="image-project">
-                        <img src="projeto (3).jpg" alt="" />
+                        <img src="project 3.png" alt="" />
                     </div>
                     <div className="title-project">
                         <div className="title-div">
@@ -54,7 +54,7 @@ function ProjectSection() {
                 </div>
                 <div className="project">
                     <div className="image-project">
-                        <img src="projeto (4).jpg" alt="" />
+                        <img src="project 4.png" alt="" />
                     </div>
                     <div className="title-project">
                         <div className="title-div">
@@ -69,7 +69,7 @@ function ProjectSection() {
                 </div>
                 <div className="project">
                     <div className="image-project">
-                        <img src="projeto (5).jpg" alt="" />
+                        <img src="project 5.png" alt="" />
                     </div>
                     <div className="title-project">
                         <div className="title-div">
@@ -84,7 +84,7 @@ function ProjectSection() {
                 </div>
                 <div className="project">
                     <div className="image-project">
-                        <img src="projeto (6).jpg" alt="" />
+                        <img src="project 6.png" alt="" />
                     </div>
                     <div className="title-project">
                         <div className="title-div">
@@ -103,6 +103,16 @@ function ProjectSection() {
                     Saiba mais
                 </p>
             </button>
+            <div className="phrase-brand">
+                <p>
+                    Com uma equipe capacitada <br />
+                    e profissional...
+                </p>
+                <h2>
+                    Modernizamos <br />
+                    <strong>a sua marca.</strong>
+                </h2>
+            </div>
         </section>
     )
 }

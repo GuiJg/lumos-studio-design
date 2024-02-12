@@ -1,10 +1,23 @@
-// src/Header.js
+// main.jsx
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 function Header() {
+    const [scrolling, setScrolling] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const scrollTop = window.scrollY;
+            const isScrolling = scrollTop > 0;
+            setScrolling(isScrolling);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
     return (
-        <header className="header-lumos">
+        <header id="header-lumos" className={scrolling ? 'scrolled' : ''}>
             <nav className="header-menu">
                 <a href="index.html" className="header-link">INÍCIO</a>
                 <a href="about.html" className="header-link">SOBRE</a>
