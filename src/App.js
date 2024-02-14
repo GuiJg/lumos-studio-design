@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom' 
-import NavBar from './sections/Navbar'
-import Header from './sections/Header'
+// import NavBar from './sections/Navbar'
+// import Header from './sections/Header'
 
 import './style.css'
 
@@ -8,8 +8,8 @@ function App(){
 
     return ( 
         <>  
-            <NavBar/> 
-            <Header/>
+            {/* <NavBar/> 
+            <Header/> */}
             <Outlet /> 
         </>
     )
