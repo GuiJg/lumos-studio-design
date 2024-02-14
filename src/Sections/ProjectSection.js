@@ -108,7 +108,7 @@ function ProjectSection() {
                     Com uma equipe capacitada <br />
                     e profissional...
                 </p>
-                <h2>
+                <h2 id="contact">
                     Modernizamos <br />
                     <strong>a sua marca.</strong>
                 </h2>

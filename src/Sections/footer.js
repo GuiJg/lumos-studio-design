@@ -8,7 +8,7 @@ function Footer() {
                 <span>Design Luminoso - Sua jornada nossa prioridade.</span>
                 <div className="info">
                     <p>Lumos Studio Design.</p>
-                    <p>CNPJ: 12.345.678/0001-00</p>
+                    <p>CNPJ: 53.890.098/0001-66</p>
                 </div>
                 <p>Copyright © | Lumos Studio Design</p>
             </div>
