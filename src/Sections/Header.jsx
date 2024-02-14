@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { NavLink } from 'react-router-dom'
+
 import '../style.css';
 
 function Header() {
@@ -15,20 +17,29 @@ function Header() {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
+    const openNavBar = () => {
+        const navbar = document.getElementById("navbar")
+        navbar.style.transform === "translateY(-100%)" ? (
+            navbar.style.transform = "translateY(0)"
+        ) : (
+            navbar.style.transform = "translateY(-100%)"
+        )
+    }
+
     return (
         <header id="header-lumos" className={`${scrolling ? 'scrolled' : ''}`}>
             <nav className="header-menu">
-                <a href="index.html" className="header-link">INÍCIO</a>
-                <a href="about" className="header-link">SOBRE</a>
-                <a href="#services" className="header-link">SERVIÇOS</a>
+                <NavLink to={"/"} className={({isActive}) => isActive ? "header-link active" : "non-active header-link"}>INÍCIO</NavLink>
+                <NavLink to={"/sobre"} className={({isActive}) => isActive ? "header-link active" : "non-active header-link"}>SOBRE</NavLink>
+                <NavLink to={"/servicos"} className={({isActive}) => isActive ? "header-link active" : "non-active header-link"}>SERVIÇOS</NavLink>
             </nav>
-            <a href="index.html" className="header-logo">
+            <NavLink to={"/"} className="header-logo">
                 <img src="/lumos icons/LUMUS STUDIO SEM ICON HORIZONTAL NEGATIVO.png" alt="Logotipo branca escrito lumos studio" />
-            </a>
+            </NavLink>
             <nav className="header-menu">
-                <a href="portfolio.html" className="header-link">PORTFÓLIO</a>
+                <NavLink to={"/portfolio"} className={({isActive}) => isActive ? "header-link active" : "non-active header-link"}>PORTFÓLIO</NavLink>
                 <a href="#contact" className="header-link">CONTATO</a>
-                <div>
+                <div onClick={openNavBar}>
                     <label className="hamburger">
                         <input type="checkbox" />   
                         <svg viewBox="0 0 32 32">

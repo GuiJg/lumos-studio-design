@@ -141,6 +141,21 @@ header {
    color: #ffffffad;
 }
 
+.header-link:active{
+   color: #D3051E;
+   font-weight: 600;
+}
+
+.active{
+   color: #D3051E;
+   font-weight: 600;
+}
+
+.non-active{
+   color: #fff;
+   font-weight: 400;
+}
+
 .hamburger {
    cursor: pointer;
 }
@@ -854,4 +869,23 @@ footer {
 
 .item-link p:hover {
    transform: translateX(3%);
+}
+
+.back-top{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid #fff;
+   border-radius: 10rem;
+   width: 3%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   transform: translate(90rem , 40rem);
+}
+
+.back-top svg{
+   width: 100%;
+   height: auto;
 }

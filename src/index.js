@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+
 import './style.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Home from './Sections/Pages/home'; 
-import AboutPage from './Sections/Pages/about'; 
- 
+import Home from './pages/Home';
+import About from './pages/About';
+import Services from './pages/Services';
+import Portfolio from './pages/Portfolio';
+
 const router = createBrowserRouter([ 
     {
         path: "/",
@@ -14,12 +17,23 @@ const router = createBrowserRouter([
         children: [
             {
                 path: "/",
-                element: <Home />, 
+                element: <Home/>, 
             }, 
+
             {
                 path: "/sobre",
-                element: <AboutPage />,
-            }
+                element: <About/>,
+            },
+
+            {
+                path: "/servicos",
+                element: <Services/>,
+            },
+
+            {
+                path: "/portfolio",
+                element: <Portfolio/>,
+            },
         ]
     }
 ])

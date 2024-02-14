@@ -2,7 +2,7 @@ import React from "react";
 
 function Banner() {
     return (
-        <section className="banner-main">
+        <section className="banner-main" id="home">
             <div className="text-banner">
                 <p>
                     CREATIVE <br />
