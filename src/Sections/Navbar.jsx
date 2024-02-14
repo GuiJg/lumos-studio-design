@@ -11,7 +11,7 @@ function NavBar() {
         ) : (
             navbar.style.transform = ""
         )
-    }
+    } 
 
     return (
         <nav className="navbar" id='navbar'>
