@@ -1,4 +1,4 @@
-import BannerSection from '../sections/BannerSection.js';
+// import BannerSection from '../sections/BannerSection.js';
 import AboutSection from '../sections/AboutSection.js';
 import ServicesSection from '../sections/ServicesSection.js';
 import ProjectSection from '../sections/ProjectSection.js';
@@ -9,7 +9,7 @@ import '../style.css';
 function Home() {
     return (
         <div className="App">
-            <BannerSection/>
+            {/* <BannerSection/> */}
             <AboutSection/>
             <ServicesSection/>
             <ProjectSection/> 
