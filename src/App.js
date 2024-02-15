@@ -3,6 +3,7 @@ import NavBar from './sections/Navbar'
 import Header from './sections/Header'
 
 import './style.css'
+import Footer from './sections/footer'
 
 function App(){
 
@@ -11,6 +12,7 @@ function App(){
             <NavBar/> 
             <Header/>
             <Outlet /> 
+            <Footer/>
         </>
     )
 } 

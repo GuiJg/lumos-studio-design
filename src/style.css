@@ -39,7 +39,7 @@ header {
    justify-content: space-between;
    height: 50em;
    padding: 5% 12.6% 5% 12.6%;
-   position: absolute;
+   position: fixed;
    z-index: 10;
    transform: translateY(-100%);
    width: 100%;

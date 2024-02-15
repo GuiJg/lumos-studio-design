@@ -3,7 +3,6 @@ import AboutSection from '../sections/AboutSection.js';
 import ServicesSection from '../sections/ServicesSection.js';
 import ProjectSection from '../sections/ProjectSection.js';
 import ContactSection from '../sections/ContactSection.js';
-import Footer from '../sections/footer.js';
 import '../style.css';
 
 function Home() {
@@ -14,7 +13,6 @@ function Home() {
             <ServicesSection/>
             <ProjectSection/> 
             <ContactSection/>
-            <Footer/> 
         </div>
     );
 }
