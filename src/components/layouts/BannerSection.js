@@ -1,6 +1,6 @@
 import React from "react";
 
-function Banner() {
+function BannerSection() {
     return (
         <section className="banner-main" id="home">
             <div className="text-banner">
@@ -25,4 +25,4 @@ function Banner() {
     )
 }
 
-export default Banner
+export default BannerSection;

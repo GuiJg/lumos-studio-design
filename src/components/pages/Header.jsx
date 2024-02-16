@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom'
 
-import '../style.css';
+import '../../style.css';
 
 function Header() {
     const [scrolling, setScrolling] = useState(false);
