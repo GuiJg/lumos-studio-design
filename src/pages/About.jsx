@@ -52,11 +52,10 @@ function About() {
                     ILUMINAR
                 </span>
             </div>
-            <div className="process-container">
-                
-            </div>
+            
         </section>
     )
 
 }
+
 export default About; 

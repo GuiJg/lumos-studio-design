@@ -9,6 +9,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 3%;
     width: 100%;
 }
 
@@ -87,7 +88,7 @@
     color: #fff;
 }
 
-.valores-container{
+.valores-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,26 +97,26 @@
     background-color: #fff;
 }
 
-.valores-container p{
+.valores-container p {
     font-size: 1.5rem;
     font-weight: 400;
     color: #000;
 }
 
-.valores-container span{
+.valores-container span {
     font-family: 'Sulphur Point', sans-serif;
     font-size: 2.5rem;
     font-weight: 600;
     color: #000;
 }
 
-.div-vertical{
+.div-vertical {
     background-color: #D3051E;
     width: 2px;
     height: 10rem;
 }
 
-.process-container{
+.process-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -123,7 +124,7 @@
     padding: 5% 5% 0% 5%;
 }
 
-ul.timeline{
+ul.timeline {
     position: relative;
     list-style-type: none;
     color: #D3051E;
@@ -154,3 +155,4 @@ ul.timeline li::before {
     margin-top: 3px;
     z-index: 400;
 }
+
