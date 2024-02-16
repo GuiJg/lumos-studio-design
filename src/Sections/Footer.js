@@ -34,7 +34,7 @@ function Footer() {
                     <NavLink to={"mailto:lumostudio.dsgn@gmail.com"} target="blank_" className="footer-link">lumostudio.dsgn@gmail.com</NavLink>
                     <NavLink to={"https://api.whatsapp.com/send?phone=5581986927127"} target="blank_" className="footer-link">(81) 9 8692-7127</NavLink>
                     <NavLink to={"https://api.whatsapp.com/send?phone=5581983395693"} target="blank_" className="footer-link">(81) 9 8339-5693</NavLink>
-                </div>
+                </div> 
             </div>
         </footer>
     )
