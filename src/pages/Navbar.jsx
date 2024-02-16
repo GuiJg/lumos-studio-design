@@ -11,7 +11,7 @@ function NavBar() {
         ) : (
             navbar.style.transform = ""
         )
-    } 
+    }
 
     return (
         <nav className="navbar" id='navbar'>
@@ -34,11 +34,11 @@ function NavBar() {
                 </div>
             </div>
             <div className="menu">
-                <a href="index.html" className="menu-link">Início</a>
-                <a href="Portfólio.html" className="menu-link">Portfólio</a>
-                <a href="websites.html" className="menu-link">Websites</a>
-                <NavLink to={"/sobre"} className={({isActive}) => isActive ? "menu-link active" : "non-active menu-link"}>SOBRE</NavLink>
-                <a href="#contact" className="menu-link">Contato</a> 
+                <NavLink to={"/"} className={({ isActive }) => isActive ? "menu-link active" : "non-active menu-link"}>Início</NavLink>
+                <NavLink to={"/portfolio"} className={({ isActive }) => isActive ? "menu-link active" : "non-active menu-link"}>Portfólio</NavLink>
+                <NavLink to={"/websites"} className={({ isActive }) => isActive ? "menu-link active" : "non-active menu-link"}>Websites</NavLink>
+                <NavLink to={"/sobre"} className={({ isActive }) => isActive ? "menu-link active" : "non-active menu-link"}>SOBRE</NavLink>
+                <a href="#contact" className="menu-link">Contato</a>
             </div>
             <div className="social-description">
                 <span>Copyright © | Lumos Studio Design</span>

@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Footer() {
     return (
@@ -15,23 +16,24 @@ function Footer() {
             <div className="links-container">
                 <div className="item-link">
                     <span>Links Úteis</span>
-                    <p>Websites</p>
-                    <p>Social Media</p>
-                    <p>Identidade Visual</p>
-                    <p>Portfólio</p>
-                    <p>Sobre nós</p>
+                    <NavLink to={"/websites"} className="footer-link">Websites</NavLink>
+                    <NavLink to={"/servicos"} className="footer-link">Social Media</NavLink>
+                    <NavLink to={"/servicos"} className="footer-link">Identidade Visual</NavLink>
+                    <NavLink to={"/portfolio"} className="footer-link">Portfólio</NavLink>
+                    <NavLink to={"/sobre"} className="footer-link">Sobre nós</NavLink>
                 </div>
                 <div className="item-link">
                     <span>Social</span>
-                    <p>Instagram</p>
-                    <p>Behance</p>
-                    <p>Linkedin</p>
+                    <NavLink to={"https://www.instagram.com/lumostudio.design?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="} target="blank_" className="footer-link">Instagram</NavLink>
+                    <NavLink to={"https://www.behance.net/lumostudiodesign"} target="blank_" className="footer-link">Behance</NavLink>
+                    <NavLink to={"https://www.linkedin.com/company/lumos-studio-dsgn/?viewAsMember=true"} target="blank_" className="footer-link">Linkedin</NavLink>
+                    <NavLink to={"https://www.facebook.com/profile.php?id=61555248074804"} target="blank_" className="footer-link">Facebook</NavLink>
                 </div>
                 <div className="item-link">
                     <span>Contato</span>
-                    <p>lumostudio.dsgn@gmail.com</p>
-                    <p>(81) 9 8339-5693</p>
-                    <p>(81) 9 8692-7127</p>
+                    <NavLink to={"mailto:lumostudio.dsgn@gmail.com"} target="blank_" className="footer-link">lumostudio.dsgn@gmail.com</NavLink>
+                    <NavLink to={"https://api.whatsapp.com/send?phone=5581986927127"} target="blank_" className="footer-link">(81) 9 8692-7127</NavLink>
+                    <NavLink to={"https://api.whatsapp.com/send?phone=5581983395693"} target="blank_" className="footer-link">(81) 9 8339-5693</NavLink>
                 </div>
             </div>
         </footer>
