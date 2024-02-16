@@ -1,9 +1,9 @@
 import { Outlet } from 'react-router-dom' 
-import NavBar from './sections/Navbar'
-import Header from './sections/Header'
+import NavBar from './pages/Navbar'
+import Header from './pages/Header'
 
 import './style.css'
-import Footer from './sections/footer'
+import Footer from './sections/Footer'
 
 function App(){
 
