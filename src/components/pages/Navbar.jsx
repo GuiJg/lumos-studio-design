@@ -21,9 +21,9 @@ function NavBar() {
                     <img src="/lumos icons/LUMUS STUDIO LOGO HORIZONTAL NEGATIVO.png" alt="Logotipo branca escrito lumos studio" />
                 </a>
                 <div className="menu-buttons">
-                    <a href="1" className="button-mensage">
+                    <NavLink to={"https://api.whatsapp.com/send?phone=5581986927127"} target='blank_' className="button-mensage">
                         <p>Enviar Mensagem</p>
-                    </a>
+                    </NavLink>
                     <label onClick={closeNavBar} id='menu-button' className="hamburger">
                         <input type="checkbox" />
                         <svg viewBox="0 0 32 32">
@@ -44,9 +44,10 @@ function NavBar() {
                 <span>Copyright © | Lumos Studio Design</span>
                 <div className="item-link">
                     <span>Social</span>
-                    <p>Instagram</p>
-                    <p>Behance</p>
-                    <p>Linkedin</p>
+                    <NavLink to={"https://www.instagram.com/lumostudio.design?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="} target="blank_" className="footer-link">Instagram</NavLink>
+                    <NavLink to={"https://www.behance.net/lumostudiodesign"} target="blank_" className="footer-link">Behance</NavLink>
+                    <NavLink to={"https://www.linkedin.com/company/lumos-studio-dsgn/?viewAsMember=true"} target="blank_" className="footer-link">Linkedin</NavLink>
+                    <NavLink to={"https://www.facebook.com/profile.php?id=61555248074804"} target="blank_" className="footer-link">Facebook</NavLink>
                 </div>
             </div>
 

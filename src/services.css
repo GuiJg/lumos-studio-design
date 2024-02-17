@@ -1,0 +1,154 @@
+body {
+    overflow-x: hidden;
+}
+
+.services-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 10% 5% 10%;
+}
+
+.service-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 1.5rem;
+}
+
+.service-title h2 {
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 4rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.service-title strong {
+    font-weight: 400;
+    color: #ffffff80;
+}
+
+.service-title p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.main__action {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    overflow: hidden;
+    transform: translate(-40%, 100%);
+}
+
+.main__scroll {
+    text-decoration: none;
+}
+
+.main__scroll-text {
+    color: transparent;
+}
+
+.main__scroll-box svg {
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 13%;
+}
+
+.main__action:hover .main__scroll-box {
+    animation: scroll-down-hover 3s infinite;
+}
+
+.main__scroll-box {
+    animation: scroll-down 3s infinite;
+}
+
+/* Animate scroll icon */
+@keyframes scroll-down-hover {
+
+    0%,
+    100% {
+        transform: translateY(0rem);
+        opacity: 1;
+    }
+
+    35% {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
+
+    70% {
+        transform: translateY(-1rem);
+        opacity: 0;
+    }
+}
+
+/* Animate scroll icon on hover keyframes */
+@keyframes scroll-down {
+
+    0%,
+    100% {
+        transform: translateY(0rem);
+        opacity: 1;
+    }
+
+    50% {
+        transform: translateY(0.5rem);
+        opacity: 0.5;
+    }
+}
+
+.container-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20% 5% 8% 5%;
+}
+
+.container-image img {
+    width: 13rem;
+    height: auto;
+}
+
+#div-service {
+    width: 100%;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3% 0% 5% 0%;
+    gap: 10rem;
+}
+
+.services span {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.service-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.service-item h2 {
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.service-item p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #fff;
+}
