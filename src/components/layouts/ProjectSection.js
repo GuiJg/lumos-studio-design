@@ -7,7 +7,7 @@ function ProjectSection() {
                 <h2>Projetos</h2>
             </div>
             <div className="container-project">
-                <div className="project">
+                <div className="item-project">
                     <div className="image-project">
                         <img src="project 1.png" alt="" />
                     </div>
@@ -22,7 +22,7 @@ function ProjectSection() {
                         </p>
                     </div>
                 </div>
-                <div className="project">
+                <div className="item-project">
                     <div className="image-project">
                         <img src="project 2.png" alt="" />
                     </div>
@@ -37,7 +37,7 @@ function ProjectSection() {
                         </p>
                     </div>
                 </div>
-                <div className="project">
+                <div className="item-project">
                     <div className="image-project">
                         <img src="project 3.png" alt="" />
                     </div>
@@ -52,7 +52,7 @@ function ProjectSection() {
                         </p>
                     </div>
                 </div>
-                <div className="project">
+                <div className="item-project">
                     <div className="image-project">
                         <img src="project 4.png" alt="" />
                     </div>
@@ -67,7 +67,7 @@ function ProjectSection() {
                         </p>
                     </div>
                 </div>
-                <div className="project">
+                <div className="item-project">
                     <div className="image-project">
                         <img src="project 5.png" alt="" />
                     </div>
@@ -82,7 +82,7 @@ function ProjectSection() {
                         </p>
                     </div>
                 </div>
-                <div className="project">
+                <div className="item-project">
                     <div className="image-project">
                         <img src="project 6.png" alt="" />
                     </div>

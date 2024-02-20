@@ -4,7 +4,7 @@ import "../../About.css"
 function About() {
 
     return (
-        <section className="about-container">
+        <section className="about-container" id="home">
             <div className="about-text-container">
                 <div className="about-title">
                     <p>sobre nós</p>
@@ -52,7 +52,11 @@ function About() {
                     ILUMINAR
                 </span>
             </div>
-            
+            <a href="#home" className="back-top">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                    <path fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m17 14l-5-5l-5 5" />
+                </svg>
+            </a>
         </section>
     )
 

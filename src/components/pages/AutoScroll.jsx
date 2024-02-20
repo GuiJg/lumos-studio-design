@@ -8,15 +8,15 @@ function SplideSlider() {
     return (
         <Splide options={{
             type: 'loop',
-            gap: '-8.5rem',
+            gap: '-15rem',
             drag: 'free',
             arrows: false,
             pagination: false,
             perPage: 4,
             autoScroll: {
-                pauseOnHover: false,
-                pauseOnFocus: false,
-                rewind: false,
+                pauseOnHover: true,
+                pauseOnFocus: true,
+                rewind: true,
                 speed: 2,
             }
         }}
@@ -24,22 +24,22 @@ function SplideSlider() {
 
         >
             <SplideSlide className="container-image">
-                <img src="https://via.placeholder.com/150" alt="1" />
+                <img src="./mockup-services.png" alt="mockup escuro" /> 
             </SplideSlide>
             <SplideSlide className="container-image">
-                <img src="https://via.placeholder.com/150" alt="2" />
+                <img src="./mockup-services.png" alt="2" /> 
             </SplideSlide>
             <SplideSlide className="container-image">
-                <img src="https://via.placeholder.com/150" alt="2" />
+                <img src="./mockup-services.png" alt="2" />
             </SplideSlide>
             <SplideSlide className="container-image">
-                <img src="https://via.placeholder.com/150" alt="2" />
+                <img src="./mockup-services.png" alt="2" />
             </SplideSlide>
             <SplideSlide className="container-image">
-                <img src="https://via.placeholder.com/150" alt="2" />
+                <img src="./mockup-services.png" alt="2" />
             </SplideSlide>
             <SplideSlide className="container-image">
-                <img src="https://via.placeholder.com/150" alt="2" />
+                <img src="./mockup-services.png" alt="2" />
             </SplideSlide>
         </Splide>
 

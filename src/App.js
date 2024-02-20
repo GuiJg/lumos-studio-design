@@ -3,7 +3,8 @@ import NavBar from './components/pages/Navbar';
 import Header from './components/pages/Header';
 import Footer from './components/layouts/Footer';
 
-import './style.css'
+import './style.css';
+import './responsive.css';  
 
 function App(){
 

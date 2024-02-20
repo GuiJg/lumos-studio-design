@@ -1,0 +1,175 @@
+@media screen and (max-width: 800px) {
+
+    * {
+        overflow-x: hidden;
+    }
+
+    header {
+        justify-content: space-between;
+        padding: 1% 5% 1% 5%;
+    }
+
+    .header-menu {
+        display: none;
+    }
+
+    .mensage-btn {
+        display: flex;
+        width: 10.5rem;
+        padding: 1.5%;
+    }
+
+    .hamburger {
+        overflow: hidden;
+    }
+
+    .about-page{
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    button.learn-more{
+        width: 60%;
+    }
+
+    button.learn-more .circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        border-color: #D3051E;
+    }
+
+    button.learn-more .button-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        overflow: hidden;
+        opacity: 1;
+        color: #fff;
+        transform: translateX(-0.8rem); 
+    }
+ 
+    button.learn-more .icon.arrow {
+        display: none;
+    }
+
+    .title-services h2{
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+
+    header{
+
+    }
+
+    .mensage-btn {
+        width: 100%;
+    }
+
+    .mensage-btn p{
+        font-size: 0.9rem;
+    }
+
+    .banner-main{
+        overflow: hidden;
+    }
+
+    .title-banner{
+        transform: translateY(5rem);
+    }
+
+    .title-banner h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .text-banner{
+        transform: translateY(0rem);
+    }
+
+    .services-home{
+        flex-direction: column;
+    }
+
+    .services-container p{
+        text-align: center;
+    }
+
+    .button-services { 
+        width: 50%;
+        padding: 2.5%;
+    }
+
+    .container-project{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .item-project{
+        overflow: hidden;
+    }
+
+    .button-project{
+        width: 40%;
+        padding: 2.5%;
+    }
+
+    .phrase-brand{
+        flex-direction: column;
+        gap: 2rem;
+        padding: 10% 0% 10% 0%;
+    }
+
+    .phrase-brand h2{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .form button{
+        width: 45%;
+        padding: 2%;
+    }
+
+    .form input, textarea{
+        padding: 3%; 
+    }
+
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        padding: 15% 10% 15% 10%;
+    }
+
+    .links-container{
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .text-title-services{
+        flex-direction: column;
+        gap: 2rem;
+        padding-bottom: 15%; 
+    }
+ 
+    .phrase-brand p{
+        text-align: center;
+    }
+
+    .phrase-brand h2{
+        font-size: 2.5rem;
+    }
+
+    .form button{
+        width: 65%;
+        padding: 3.5%;
+    }
+}

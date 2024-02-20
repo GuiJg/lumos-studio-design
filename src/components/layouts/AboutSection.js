@@ -1,6 +1,7 @@
 // src/Header.js
 
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 function AboutSection() {
     return (
@@ -11,11 +12,11 @@ function AboutSection() {
                     Somos a <br />
                     Lumos Studio.
                 </h2>
-                <button class="learn-more">
-                    <span aria-hidden="true" class="circle">
-                        <span class="icon arrow"></span>
+                <button className="learn-more">
+                    <span aria-hidden="true" className="circle">
+                        <span className="icon arrow"></span>
                     </span>
-                    <span class="button-text">Nos conheça melhor.</span>
+                    <NavLink to={"/sobre"} className="button-text">Nos conheça melhor.</NavLink>
                 </button>
             </div>
             <div className="text-description">

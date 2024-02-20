@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import './style.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Home from './components/pages/Home';
@@ -10,6 +9,9 @@ import About from './components/pages/About';
 import Services from './components/pages/Services'; 
 import Portfolio from './components/pages/Portfolio';
 import Websites from './components/pages/Websites';
+
+import './style.css';
+import './responsive.css';
 
 
 const router = createBrowserRouter([ 

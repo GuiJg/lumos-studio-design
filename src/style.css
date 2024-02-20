@@ -83,6 +83,10 @@ header {
    transform: scale(0.96);
 }
 
+.mensage-btn{
+   display: none;
+}
+
 .button-mensage p {
    font-family: 'K2D', sans-serif;
    font-size: 1rem;
@@ -149,6 +153,7 @@ header {
 .active{
    color: #D3051E;
    font-weight: 600;
+   text-shadow: 1px 1px 1px #0000004b;
 }
 
 .non-active{
@@ -368,7 +373,7 @@ button.learn-more .button-text {
    line-height: 1.6;
    text-align: center;
    opacity: 0;
-   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+   transition: all 0.4s cubic-bezier(0.65, 0, 0.076, 1);
 }
 
 button:hover .circle {
@@ -544,7 +549,7 @@ button:active .button-text {
    gap: 0.1rem;
 }
 
-.project {
+.item-project {
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -560,7 +565,30 @@ button:active .button-text {
    justify-content: center;
    align-items: center;
    border: 1px solid #ffffff42;
+   position: relative;
+   overflow: hidden;
    transition: 0.5s;
+}
+
+.image-project::before{
+   content: "";
+   position: absolute;
+   top: 100%;
+   left: 0%;
+   width: 100%;
+   height: 100%;
+   opacity: 90%;
+   background: linear-gradient(to top, #202020 100%, transparent 50%);
+   transition: top 0.3s;
+}
+
+.image-project:hover::before{
+   top: 0;
+}
+
+.image-project:hover .title-project{
+   border: 1px solid #ffffff85;
+   background-position: 0 100%;
 }
 
 .image-project img {
@@ -574,21 +602,23 @@ button:active .button-text {
    justify-content: flex-start;
    align-items: flex-start;
    text-align: start;
-   gap: 1rem;
+   gap: 1rem; 
    opacity: 0;
    position: absolute;
+   background: linear-gradient(to top, transparent 0%, transparent 100%);
+   pointer-events: none;
    transform: translate(3%, 140%);
-   transition: 0.5s;
+   transition: all 0.3s;
 }
 
-.project:hover .title-project {
+.item-project:hover .title-project {
    opacity: 1;
 }
 
-.project:hover .image-project {
+/* .item-project:hover .image-project {
    border: 1px solid #fff;
    filter: brightness(30%);
-}
+} */
 
 .title-project p {
    font-size: 1.1rem;
@@ -760,6 +790,7 @@ button:active .button-text {
    justify-content: center;
    align-items: center;
    width: 20%;
+   margin: 1.2% 0% 1.2% 0%;
    padding: 1.2%;
    font-size: 1rem;
    font-family: 'K2D', sans-serif;
