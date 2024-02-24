@@ -6,16 +6,30 @@
 
     header {
         justify-content: space-between;
+        gap: 1rem;
         padding: 1% 5% 1% 5%;
+    }
+
+    .navbar {
+        justify-content: start;
+        gap: 1.5rem;
+    }
+
+    .menu-buttons {
+        gap: 3rem;
     }
 
     .header-menu {
         display: none;
     }
 
+    .menu-link {
+        width: 50%;
+    }
+
     .mensage-btn {
         display: flex;
-        width: 10.5rem;
+        width: 9.4rem;
         padding: 1.5%;
     }
 
@@ -23,12 +37,13 @@
         overflow: hidden;
     }
 
-    .about-page{
+    .about-page {
         flex-direction: column;
         gap: 5rem;
+        margin-top: 2rem;
     }
 
-    button.learn-more{
+    button.learn-more {
         width: 60%;
     }
 
@@ -49,14 +64,19 @@
         overflow: hidden;
         opacity: 1;
         color: #fff;
-        transform: translateX(-0.8rem); 
+        transform: translateX(-0.8rem);
     }
- 
+
     button.learn-more .icon.arrow {
         display: none;
     }
 
-    .title-services h2{
+    .title-services h2 {
+        text-align: center;
+    }
+
+    .services-item {
+        align-items: center;
         text-align: center;
     }
 
@@ -64,82 +84,110 @@
 
 @media screen and (max-width: 425px) {
 
-    header{
-
+    /* .logo-navbar{
+        background-image: url();
     }
 
-    .mensage-btn {
-        width: 100%;
+    .logo-navbar img{
+        display: none;
+    } */
+
+    .button-mensage {
+        width: 9rem;
     }
 
-    .mensage-btn p{
+    .button-mensage p {
         font-size: 0.9rem;
     }
 
-    .banner-main{
+    .menu-buttons {
+        gap: 1rem;
+    }
+
+    .menu-link {
+        width: 70%;
+    }
+
+    .social-description {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .mensage-btn {
+        width: 34%;
+        padding: 2.5% 1% 2.5% 1%;
+    }
+
+    .mensage-btn p {
+        font-size: 0.9rem;
+    }
+
+    .banner-main {
         overflow: hidden;
     }
 
-    .title-banner{
+    .title-banner {
         transform: translateY(5rem);
     }
 
-    .title-banner h1{
+    .title-banner h1 {
         font-size: 3rem;
         text-align: center;
     }
 
-    .text-banner{
+    .text-banner {
         transform: translateY(0rem);
     }
 
-    .services-home{
+    .services-home {
         flex-direction: column;
     }
 
-    .services-container p{
+    .services-container p {
         text-align: center;
     }
 
-    .button-services { 
+    .button-services {
         width: 50%;
         padding: 2.5%;
     }
 
-    .container-project{
+    .container-project {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .item-project{
+    .item-project {
         overflow: hidden;
     }
 
-    .button-project{
+    .button-project {
         width: 40%;
         padding: 2.5%;
     }
 
-    .phrase-brand{
+    .phrase-brand {
         flex-direction: column;
         gap: 2rem;
         padding: 10% 0% 10% 0%;
     }
 
-    .phrase-brand h2{
+    .phrase-brand h2 {
         font-size: 3rem;
         text-align: center;
     }
 
-    .form button{
+    .form button {
         width: 45%;
         padding: 2%;
     }
 
-    .form input, textarea{
-        padding: 3%; 
+    .form input,
+    textarea {
+        padding: 3%;
     }
 
-    footer{
+    footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -147,29 +195,72 @@
         padding: 15% 10% 15% 10%;
     }
 
-    .links-container{
+    .links-container {
         flex-direction: column;
     }
 
 }
 
 @media screen and (max-width: 320px) {
-    .text-title-services{
+
+    .navbar {
+        padding: 5% 7% 5% 7%;
+    }
+
+    .menu-buttons {
+        gap: 0rem;
+    }
+
+    .mensage-btn {
+        padding: 3% 1% 3% 1%;
+    }
+
+    .mensage-btn p{
+        font-size: 0.7rem;
+    }
+
+    .menu-link {
+        width: 100%;
+    }
+
+    button.learn-more {
+        width: 75%;
+    }
+
+    button.learn-more .button-text {
+        font-size: 1rem;
+    }
+
+    .button-services {
+        width: 55%;
+        padding: 4%;
+    }
+
+    .button-services p {
+        font-size: 1rem;
+    }
+
+    .title-services h2 {
+        font-size: 3rem;
+    }
+
+    .text-title-services {
         flex-direction: column;
         gap: 2rem;
-        padding-bottom: 15%; 
+        padding-bottom: 15%;
     }
- 
-    .phrase-brand p{
+
+    .phrase-brand p {
         text-align: center;
     }
 
-    .phrase-brand h2{
+    .phrase-brand h2 {
         font-size: 2.5rem;
     }
 
-    .form button{
+    .form button {
         width: 65%;
         padding: 3.5%;
     }
+
 }

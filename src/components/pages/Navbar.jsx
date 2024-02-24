@@ -17,7 +17,7 @@ function NavBar() {
         <nav className="navbar" id='navbar'>
 
             <div className="navbar-logo">
-                <a href="index.html" className="header-logo">
+                <a href="index.html" className="header-logo logo-navbar">
                     <img src="/lumos icons/LUMUS STUDIO LOGO HORIZONTAL NEGATIVO.png" alt="Logotipo branca escrito lumos studio" />
                 </a>
                 <div className="menu-buttons">
