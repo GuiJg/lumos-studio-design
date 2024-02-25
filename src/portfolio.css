@@ -33,11 +33,14 @@
 }
 
 .container-filters {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
     align-items: center;
-    gap: 5rem;
+    gap: 0rem;
+    background-color: #D3051E;
     margin-top: 5%;
+    width: 100%;
     padding: 1%;
 }
 
@@ -51,8 +54,8 @@
     border: 1px solid #fff;
     border-radius: 10rem;
     cursor: pointer;
-    width: 13rem;
-    padding: 1.5%;
+    width: 12rem;
+    padding: 5%;
     transition: 0.5s;
 }
 

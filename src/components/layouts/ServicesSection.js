@@ -15,8 +15,8 @@ function ServicesSection() {
                         sustentável para cada cliente.
                     </p>
                     <p>
-                        Somos arquitetos de experiências e <br /> 
-                        impulsionadores de crescimento. <br /> 
+                        Somos arquitetos de experiências e <br />
+                        impulsionadores de crescimento. <br />
                         Estamos aqui para iluminar o caminho, <br />
                         transformando ideias em realidade.
                     </p>
@@ -26,26 +26,35 @@ function ServicesSection() {
                 <p>Lhe proporcionamos um serviço personalizado.</p>
                 <div className="services-home">
                     <div className="services-item">
-                        <span>
-                            Desenvolvimento <br />
-                            de WebSites
-                        </span>
+                        <div className="title-border">
+                            <span>
+                                Desenvolvimento <br />
+                                de WebSites
+                            </span>
+                            <div className="border-text"></div>
+                        </div>
                         <p>
                             Criamos sites impactantes que não apenas funcionam, mas também encantam seus visitantes, combinando criatividade e precisão técnica.
                         </p>
                     </div>
                     <div className="services-item">
-                        <span>
-                            Social Media
-                        </span>
+                        <div className="title-border">
+                            <span>
+                                Social Media
+                            </span>
+                            <div className="border-text"></div>
+                        </div>
                         <p>
                             Transformamos suas redes sociais em comunidades envolventes, contando sua história de maneira cativante e construindo relacionamentos genuínos com seu público.
                         </p>
                     </div>
                     <div className="services-item">
-                        <span>
-                            identidade Visual
-                        </span>
+                        <div className="title-border">
+                            <span>
+                                Identidade Visual
+                            </span>
+                            <div className="border-text"></div>
+                        </div>
                         <p>
                             Nossa identidade visual vai além de logotipos; é uma expressão autêntica da personalidade e valores da sua marca, deixando uma marca duradoura.
                         </p>

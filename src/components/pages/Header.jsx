@@ -46,7 +46,7 @@ function Header() {
                 <NavLink to={"/portfolio"} className={({ isActive }) => isActive ? "header-link active" : "non-active header-link"}>PORTFÓLIO</NavLink>
                 <a href="#contact" className="header-link">CONTATO</a>
             </nav>
-            <div onClick={openNavBar}>
+            <div className="hamburger-container" onClick={openNavBar}>
                 <label className="hamburger">
                     <input type="checkbox" />
                     <svg viewBox="0 0 32 32">
