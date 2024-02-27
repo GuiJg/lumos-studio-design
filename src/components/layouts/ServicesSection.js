@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function ServicesSection() {
     return (
@@ -60,11 +61,11 @@ function ServicesSection() {
                         </p>
                     </div>
                 </div>
-                <button className="button-services">
+                <NavLink to={"/servicos"} className="button-services">
                     <p>
                         Saiba mais
                     </p>
-                </button>
+                </NavLink>
             </div>
         </section>
     )

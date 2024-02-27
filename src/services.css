@@ -30,7 +30,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     width: 100%;
-    padding: 0% 10% 0% 10%;
+    padding: 2% 10% 0% 10%;
     gap: 1.5rem;
 }
 
@@ -55,9 +55,9 @@ body {
 .main__action {
     position: absolute;
     left: 50%;
-    top: 17%;
+    top: 50%;
     overflow: hidden;
-    transform: translate(-40%, 100%);
+    transform: translate(0rem, 13rem);
 }
 
 .main__scroll {
@@ -152,10 +152,11 @@ body {
 
 .service-item {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0% 10% 0% 10%;
     gap: 5rem;
+    margin: 0% 10% 0% 10%;
 }
 
 .service-item h2 {
@@ -167,6 +168,7 @@ body {
 }
 
 #reverse {
+    flex-direction: row-reverse; 
     text-align: end;
 }
 
@@ -175,6 +177,21 @@ body {
     font-weight: 300;
     text-align: justify;
     color: #fff;
+}
+
+.text-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.border{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #D3051E;
+    width: 50%;
+    height: 0.1rem;
 }
 
 .lumos-different{

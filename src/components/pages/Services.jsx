@@ -34,22 +34,31 @@ function Services() {
                 <span>O que fazemos no estúdio?</span>
 
                 <div className="service-item">
-                    <h2>Desenvolvimento de WebSites</h2>
-                    <p>
-                        Criamos sites impactantes que não apenas funcionam, mas também encantam seus visitantes, combinando criatividade e precisão técnica.
-                    </p>
-                </div>
-                <div className="service-item" id="reverse">
-                    <p>
-                        Transformamos suas redes sociais em comunidades envolventes, contando sua história de maneira cativante e construindo relacionamentos genuínos com seu público.
-                    </p>
-                    <h2>Social Media Design</h2>
+                    <div className="text-item">
+                        <h2>Desenvolvimento de WebSites</h2>
+                        <p>
+                            Criamos sites impactantes que não apenas funcionam, mas também encantam seus visitantes, combinando criatividade e precisão técnica.
+                        </p>
+                    </div>
+                    <div className="border"></div>
                 </div>
                 <div className="service-item">
-                    <h2>Identidade Visual</h2>
-                    <p>
-                        Nossa identidade visual vai além de logotipos; é uma expressão autêntica da personalidade e valores da sua marca, deixando uma marca duradoura.
-                    </p>
+                    <div className="text-item" id="reverse">
+                        <h2>Social Media Design</h2>
+                        <p>
+                            Transformamos suas redes sociais em comunidades envolventes, contando sua história de maneira cativante e construindo relacionamentos genuínos com seu público.
+                        </p>
+                    </div>
+                    <div className="border" id="reverse"></div>
+                </div>
+                <div className="service-item">
+                    <div className="text-item">
+                        <h2>Identidade Visual</h2>
+                        <p>
+                            Nossa identidade visual vai além de logotipos; é uma expressão autêntica da personalidade e valores da sua marca, deixando uma marca duradoura.
+                        </p>
+                    </div>
+                    <div className="border"></div>
                 </div>
             </div>
             <div className="lumos-different">

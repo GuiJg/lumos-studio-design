@@ -37,10 +37,8 @@
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
     align-items: center;
-    gap: 0rem;
-    background-color: #D3051E;
+    gap: 5rem;
     margin-top: 5%;
-    width: 100%;
     padding: 1%;
 }
 
@@ -55,7 +53,7 @@
     border-radius: 10rem;
     cursor: pointer;
     width: 12rem;
-    padding: 5%;
+    padding: 8%;
     transition: 0.5s;
 }
 
