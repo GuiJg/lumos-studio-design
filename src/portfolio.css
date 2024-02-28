@@ -34,7 +34,7 @@
 
 .container-filters {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     justify-items: center;
     align-items: center;
     gap: 5rem;
@@ -87,7 +87,7 @@
     padding: 5% 10% 5% 10%;
 }
 
-.phrase-project{
+.phrase-project {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,13 +97,47 @@
     margin: 5% 0% 5% 0%;
 }
 
-.phrase-project h2{
+.item-project {
+    opacity: 1;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.item-project.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.item-project.fade-slide-in {
+    animation: fadeIn 0.5s ease, slideIn 0.5s ease;
+}
+
+.phrase-project h2 {
     font-family: 'Sulphur Point', sans-serif;
     font-size: 3rem;
     font-weight: 400;
     color: #fff;
 }
 
-#contact-page{
+#contact-page {
     width: 100%;
 }
