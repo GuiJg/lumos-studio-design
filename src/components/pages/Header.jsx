@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom'
+import ScrollToTopOnMount from './ScrollToTopOnMount';
 
 import '../../style.css';
 
@@ -35,6 +36,7 @@ function Header() {
                 <p>Enviar Mensagem</p>
             </NavLink>
             <nav className="header-menu">
+                <ScrollToTopOnMount />
                 <NavLink to={"/"} className={({ isActive }) => isActive ? "header-link active" : "non-active header-link"}>INÍCIO</NavLink>
                 <NavLink to={"/sobre"} className={({ isActive }) => isActive ? "header-link active" : "non-active header-link"}>SOBRE</NavLink>
                 <NavLink to={"/servicos"} className={({ isActive }) => isActive ? "header-link active" : "non-active header-link"}>SERVIÇOS</NavLink>

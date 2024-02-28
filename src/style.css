@@ -46,15 +46,15 @@ header {
    background-color: #202020;
    background-image: url("https://www.transparenttextures.com/patterns/otis-redding.png");
    transition: trasform 0.5s ease;
-} 
+}
 
-.navbar-logo{
+.navbar-logo {
    display: flex;
    justify-content: space-between;
    align-items: center;
 }
 
-.menu-buttons{
+.menu-buttons {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -83,7 +83,7 @@ header {
    transform: scale(0.96);
 }
 
-.mensage-btn{
+.mensage-btn {
    display: none;
    text-align: center;
 }
@@ -94,37 +94,37 @@ header {
    color: #fff;
 }
 
-#menu-button svg path{
+#menu-button svg path {
    stroke: #D3051E;
 }
 
-.menu{
+.menu {
    display: flex;
    flex-direction: column;
    justify-content: center;
    margin: 1%;
 }
 
-.menu-link{
+.menu-link {
    text-decoration: none;
    font-family: 'Sulphur Point', sans-serif;
-   font-size: 3.5rem;      
+   font-size: 3.5rem;
    color: #fff;
    width: 30%;
    transition: 0.5s;
 }
 
-.menu-link:hover{
+.menu-link:hover {
    color: #ffffff87;
 }
 
-.social-description{
+.social-description {
    display: flex;
    justify-content: space-between;
    align-items: flex-end;
 }
 
-.social-description span{
+.social-description span {
    color: #fff;
 }
 
@@ -146,23 +146,23 @@ header {
    color: #ffffffad;
 }
 
-.header-link:active{
+.header-link:active {
    color: #D3051E;
    font-weight: 600;
 }
 
-.active{
+.active {
    color: #D3051E;
    font-weight: 600;
    text-shadow: 1px 1px 1px #0000004b;
 }
 
-.non-active{
+.non-active {
    color: #fff;
    font-weight: 400;
 }
 
-.hamburger-container{
+.hamburger-container {
    overflow: hidden;
 }
 
@@ -420,7 +420,21 @@ button:active .button-text {
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   background-image: radial-gradient(circle at 100% 50%, #d3051db0, #202020 20%);
+   position: relative;
    padding: 5% 10% 5% 10%;
+}
+
+.services-page::after {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-image: url("https://www.transparenttextures.com/patterns/otis-redding.png");
+   opacity: 100%;
+   z-index: 1;
 }
 
 .title-services {
@@ -493,7 +507,7 @@ button:active .button-text {
    color: #fff;
 }
 
-.title-border{
+.title-border {
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -501,7 +515,7 @@ button:active .button-text {
    gap: 0.5rem;
 }
 
-.border-text{
+.border-text {
    border-bottom: 1px solid #D3051E;
    width: 5rem;
 }
@@ -592,7 +606,7 @@ button:active .button-text {
    transition: 0.5s;
 }
 
-.image-project::before{
+.image-project::before {
    content: "";
    position: absolute;
    top: 100%;
@@ -604,11 +618,11 @@ button:active .button-text {
    transition: top 0.3s;
 }
 
-.image-project:hover::before{
+.image-project:hover::before {
    top: 0;
 }
 
-.image-project:hover .title-project{
+.image-project:hover .title-project {
    border: 1px solid #ffffff85;
    background-position: 0 100%;
 }
@@ -624,7 +638,7 @@ button:active .button-text {
    justify-content: flex-start;
    align-items: flex-start;
    text-align: start;
-   gap: 1rem; 
+   gap: 1rem;
    opacity: 0;
    position: absolute;
    background: linear-gradient(to top, transparent 0%, transparent 100%);
@@ -925,7 +939,7 @@ footer {
    transform: translateX(3%);
 }
 
-.back-top{
+.back-top {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -936,10 +950,10 @@ footer {
    top: 0;
    left: 0;
    right: 0;
-   transform: translate(90rem , 40rem);
+   transform: translate(90rem, 40rem);
 }
 
-.back-top svg{
+.back-top svg {
    width: 100%;
    height: auto;
 }
