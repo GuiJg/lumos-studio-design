@@ -1,3 +1,20 @@
+@media screen and (max-width: 1440px){
+    .hamburger-container{
+        width: 4rem;
+    }
+}
+
+@media screen and (max-width: 1155px){
+    .hamburger-container{
+        width: 6rem !important;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .hamburger-container{
+        width: 10rem !important;
+    }
+}
 @media screen and (max-width: 800px) {
 
     * {
@@ -16,7 +33,7 @@
         padding: 2% 5% 2% 5%;
     }
 
-    .logo-navbar{
+    .logo-navbar {
         width: 40%;
     }
 
@@ -24,7 +41,7 @@
         gap: 3rem;
     }
 
-    .header-menu { 
+    .header-menu {
         display: none;
     }
 
@@ -85,46 +102,97 @@
         text-align: center;
     }
 
-    .button-services{
+    .button-services {
         width: 23%;
         padding: 1.6%;
     }
 
-    .phrase-brand{
+    .phrase-brand {
         text-align: center;
         align-items: center;
     }
 
-    .container-filters{
-        grid-template-columns: repeat(2, 1fr);
+    .container-filters {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 1rem !important;
+    }
+
+    .projects {
+        grid-template-columns: repeat(1, 1fr) !important;
+        gap: 0.2rem;
+    }
+
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        padding: 15% 10% 15% 10%;
+    }
+
+    .links-container {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .hamburger-container{
+        width: 3rem !important;
+    }
+
+    .about-text-container{
+        flex-direction: column;
+        align-items: flex-start !important;
+        gap: 2rem;
+        padding-top: 5%;
+        padding-left: 6.5%;
+    }
+
+    .expertise-text-container{
+        gap: 10rem !important;
+    }
+
+    .valores-container{
+        gap: 2rem !important;
+    }
+
+    footer{
+        padding: 5% 10% 5% 10% !important;
     }
 
 }
 
 @media screen and (max-width: 570px) {
-    
-    .logo-navbar{
+
+    .logo-navbar {
         width: 45%;
     }
 
-    .menu-buttons{
+    .menu-buttons {
         gap: 0.5rem;
     }
 
-    .mensage-btn{
-        width: 10rem; 
+    .mensage-btn {
+        width: 10rem;
         padding: 2%;
     }
-    
-    .button-mensage{
+
+    .button-mensage {
         width: 10rem;
         padding: 5% 3% 5% 3%;
+    }
+
+    .about-text-container{
+        padding: 10% 5% 10% 8% !important;
+    }
+
+    .expertise-text-container{
+        gap: 5rem !important;
     }
 }
 
 @media screen and (max-width: 425px) {
 
-    .navbar{
+    .navbar {
         padding: 2% 5% 2% 5%;
     }
 
@@ -223,29 +291,48 @@
         padding: 3%;
     }
 
-    footer {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    .project-container-filter {
         gap: 3rem;
-        padding: 15% 10% 15% 10%;
     }
 
-    .links-container {
-        flex-direction: column;
-    }
-
-    .portfolio-title{
+    .portfolio-title {
         margin-top: 15%;
     }
 
-    .portfolio-title h2{
-        font-size: 2rem;
+    .portfolio-title h2 {
+        font-size: 3rem !important;
+    }
+
+    .expertise-text-container{
+        flex-direction: column;
+        align-items: flex-start !important;
+        gap: 2rem !important;
+        padding-left: 10%;
+    }
+
+    .valores-container{
+        flex-direction: column;
+        text-align: start;
+        padding: 15% 0% 15% 0% !important;
+    }
+
+    .valores-container span{
+        width: 100%;
+        padding-left: 9%;
+    }
+
+    .div-vertical{
+        width: 15rem !important;
+        height: 0.1rem !important;
+    }
+
+    .timeline-title svg{
+        width: 10% !important;
     }
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
 
     .navbar {
         padding: 5% 7% 5% 7%;
@@ -305,6 +392,11 @@
     .form button {
         width: 65%;
         padding: 3.5%;
+    }
+
+    .container-filters {
+        grid-template-columns: repeat(1, 1fr) !important;
+        gap: 1.5rem !important;
     }
 
 }

@@ -34,10 +34,10 @@
 
 .container-filters {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-items: center;
     align-items: center;
-    gap: 5rem;
+    gap: 3rem;
     margin-top: 5%;
     padding: 1%;
 }

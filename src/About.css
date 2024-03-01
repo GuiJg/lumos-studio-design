@@ -1,4 +1,4 @@
-body{
+body {
     overflow-x: hidden;
 }
 
@@ -118,10 +118,28 @@ body{
     height: 10rem;
 }
 
+@keyframes moveGradient {
+
+    0% {
+        background-position: 100% 0%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100% { 
+        background-position: 100% 100%;
+    }
+
+}
+
 .container-timeline {
-    background-image: radial-gradient(circle at 100% 50%, #d3051e, #202020 30%);
+    background-image: radial-gradient(circle at 100% 50%, #d3051e 0%, #202020 10%);
     position: relative;
     padding: 5% 10% 5% 10%;
+    background-size: 200% 200%;
+    animation: moveGradient 5s linear infinite alternate;
 }
 
 .container-timeline::after {
@@ -141,7 +159,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
 }
 
 .timeline-title p {

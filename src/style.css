@@ -188,6 +188,7 @@ header {
 
 .hamburger-container {
    overflow: hidden;
+   width: 3rem;
 }
 
 .hamburger {
@@ -199,7 +200,8 @@ header {
 }
 
 .hamburger svg {
-   height: 3em;
+   width: 100%;
+   height: auto;
    transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -901,6 +903,7 @@ footer {
    text-align: start;
    background-color: #D3051E;
    padding: 3% 10% 3% 10%;
+   width: 100%;
 }
 
 .logo-info {
@@ -962,6 +965,12 @@ footer {
    font-weight: 500;
    color: #fff;
    margin-bottom: 2%;
+}
+
+.link-pages{
+   display: flex;
+   align-items: flex-start;
+   gap: 3rem;
 }
 
 .footer-link {
