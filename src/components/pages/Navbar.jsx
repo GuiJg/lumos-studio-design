@@ -17,12 +17,12 @@ function NavBar() {
         <nav className="navbar" id='navbar'>
 
             <div className="navbar-logo">
-                <NavBar to={"/"} className="header-logo logo-navbar">
+                <NavLink to={"/"} className="header-logo">
                     <img src="/lumos icons/LUMUS STUDIO LOGO HORIZONTAL NEGATIVO.png" alt="Logotipo branca escrito lumos studio" />
-                </NavBar>
-                <NavBar to={"/"} className="logo-navbar">
+                </NavLink>
+                <NavLink to={"/"} className="logo-navbar">
                     <img src="/lumos icons/LUMUS STUDIO EGATIVO_1.png" alt="Logotipo branca escrito lumos studio" />
-                </NavBar>
+                </NavLink>
                 <div className="menu-buttons">
                     <NavLink to={"https://api.whatsapp.com/send?phone=5581986927127"} target='blank_' className="button-mensage">
                         <p>Enviar Mensagem</p>
