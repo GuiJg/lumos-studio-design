@@ -17,9 +17,12 @@ function NavBar() {
         <nav className="navbar" id='navbar'>
 
             <div className="navbar-logo">
-                <a href="index.html" className="header-logo logo-navbar">
+                <NavBar to={"/"} className="header-logo logo-navbar">
                     <img src="/lumos icons/LUMUS STUDIO LOGO HORIZONTAL NEGATIVO.png" alt="Logotipo branca escrito lumos studio" />
-                </a>
+                </NavBar>
+                <NavBar to={"/"} className="logo-navbar">
+                    <img src="/lumos icons/LUMUS STUDIO EGATIVO_1.png" alt="Logotipo branca escrito lumos studio" />
+                </NavBar>
                 <div className="menu-buttons">
                     <NavLink to={"https://api.whatsapp.com/send?phone=5581986927127"} target='blank_' className="button-mensage">
                         <p>Enviar Mensagem</p>
@@ -38,7 +41,7 @@ function NavBar() {
                 <NavLink to={"/portfolio"} className={({ isActive }) => isActive ? "menu-link active" : "non-active menu-link"}>Portfólio</NavLink>
                 <NavLink to={"/websites"} className={({ isActive }) => isActive ? "menu-link active" : "non-active menu-link"}>Websites</NavLink>
                 <NavLink to={"/sobre"} className={({ isActive }) => isActive ? "menu-link active" : "non-active menu-link"}>Sobre</NavLink>
-                <a href="#contact" className="menu-link">Contato</a>
+                <NavLink to={"https://lumos-studio.vercel.app/#contact"} className="menu-link">Contato</NavLink>
             </div>
             <div className="social-description">
                 <span>Copyright © | Lumos Studio Design</span>

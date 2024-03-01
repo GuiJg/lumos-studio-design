@@ -32,7 +32,7 @@ function Header() {
 
     return (
         <header id="header-lumos" className={`${scrolling ? 'scrolled' : ''}`}>
-            <NavLink to={"https://api.whatsapp.com/send?phone=5581986927127"} target='blank_' className="button-mensage mensage-btn">
+            <NavLink to={"https://api.whatsapp.com/send?phone=5581986927127"} target='blank_' className="mensage-btn">
                 <p>Enviar Mensagem</p>
             </NavLink>
             <nav className="header-menu">
@@ -46,7 +46,7 @@ function Header() {
             </NavLink>
             <nav className="header-menu">
                 <NavLink to={"/portfolio"} className={({ isActive }) => isActive ? "header-link active" : "non-active header-link"}>PORTFÓLIO</NavLink>
-                <a href="#contact" className="header-link">CONTATO</a>
+                <NavLink to={"https://lumos-studio.vercel.app/#contact"} className="header-link">CONTATO</NavLink>
             </nav>
             <div className="hamburger-container" onClick={openNavBar}>
                 <label className="hamburger">

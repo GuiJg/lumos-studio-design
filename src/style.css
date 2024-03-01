@@ -83,12 +83,36 @@ header {
    transform: scale(0.96);
 }
 
-.mensage-btn {
-   display: none;
-   text-align: center;
+.button-mensage p {
+   font-family: 'K2D', sans-serif;
+   font-size: 1rem;
+   color: #fff;
 }
 
-.button-mensage p {
+.mensage-btn {
+   display: none;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid #D3051E;
+   background-color: transparent;
+   border-radius: 10em;
+   padding: 3%;
+   cursor: pointer;
+   width: 12.5rem;
+   text-decoration: none;
+   text-align: center;
+   transition: 0.5s;
+}
+
+.mensage-btn:hover {
+   background-color: #D3051E;
+}
+
+.mensage-btn:active {
+   transform: scale(0.96);
+}
+
+.mensage-btn p {
    font-family: 'K2D', sans-serif;
    font-size: 1rem;
    color: #fff;
@@ -211,6 +235,18 @@ header {
 
 .header-logo img {
    width: 100%;
+   height: auto;
+}
+
+.logo-navbar{
+   display: none;
+   justify-content: center;
+   align-items: center;
+   width: 25%;
+}
+
+.logo-navbar img {
+   width: 100%;    
    height: auto;
 }
 
@@ -481,6 +517,7 @@ button:active .button-text {
    align-items: center;
    padding: 12% 3% 5% 3%;
    gap: 3.5rem;
+   z-index: 2;
 }
 
 .services-home {
@@ -951,7 +988,22 @@ footer {
    top: 0;
    left: 0;
    right: 0;
+   z-index: 2;
    transform: translate(90rem, 40rem);
+   transition: 0.5s;
+}
+
+.back-top:hover{
+   background-color: #fff;
+   border-color: #202020;
+}
+
+.back-top svg path{
+   transition: 0.5s;
+}
+
+.back-top:hover #path{
+   stroke: #202020;
 }
 
 .back-top svg {

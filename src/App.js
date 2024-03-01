@@ -6,7 +6,7 @@ import Footer from './components/layouts/Footer';
 import './style.css';
 import './responsive.css';  
 
-function App(){
+function Scroll(){
 
     return ( 
         <>  
@@ -18,4 +18,4 @@ function App(){
     )
 } 
 
-export default App;
+export default Scroll;

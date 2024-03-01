@@ -44,7 +44,7 @@ body{
 }
 
 .image-ex {
-    background-image: url(../public/abstract-background.jpg);
+    background-image: url(../public/abstract-background.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
