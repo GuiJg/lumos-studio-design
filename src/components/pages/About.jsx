@@ -65,7 +65,7 @@ function About() {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: 'transparent', color: '#fff', boxShadow: '0px 0px', paddingLeft: '10%'}}
-                        iconStyle={{ background: '#D3051E', width: '40px', height: '40px', left: '50.9%', top: '-40%', boxShadow: '0px 0px'}}
+                        iconStyle={{ background: '#D3051E', width: '35px', height: '35px', left: '51.1%', top: '-40%', boxShadow: '0px 0px'}}
                     >
                         <h3 className="vertical-timeline-element-title vertical-title">1. Conhecer</h3>
                         <h4 className="vertical-timeline-element-subtitle vertical-subtitle">
@@ -76,7 +76,7 @@ function About() {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: 'transparent', color: '#fff', boxShadow: '0px 0px', paddingRight: '10%'}}
-                        iconStyle={{ background: '#D3051E', width: '40px', height: '40px', left: '50.9%', top: '7%', boxShadow: '0px 0px', opacity: '0'}}
+                        iconStyle={{ background: '#D3051E', width: '40px', height: '40px', left: '50.9%', top: '7%', boxShadow: '0px 0px', display: 'none'}}
                     >
                         <h3 className="vertical-timeline-element-title vertical-title">2. Estruturar</h3>
                         <h4 className="vertical-timeline-element-subtitle vertical-subtitle">
@@ -87,7 +87,7 @@ function About() {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: 'transparent', color: '#fff', boxShadow: '0px 0px', paddingLeft: '10%'}}
-                        iconStyle={{ background: '#D3051E', width: '40px', height: '40px', left: '50.9%', top: '7%', boxShadow: '0px 0px', opacity: '0'}}
+                        iconStyle={{ background: '#D3051E', width: '40px', height: '40px', left: '50.9%', top: '7%', boxShadow: '0px 0px', display: 'none'}}
                     >
                         <h3 className="vertical-timeline-element-title vertical-title">3. Visualizar</h3>
                         <h4 className="vertical-timeline-element-subtitle vertical-subtitle">
@@ -98,7 +98,7 @@ function About() {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: 'transparent', color: '#fff', boxShadow: '0px 0px', paddingRight: '10%'}}
-                        iconStyle={{ background: '#D3051E', width: '40px', height: '40px', left: '50.9%', top: '7%', boxShadow: '0px 0px', opacity: '0'}}
+                        iconStyle={{ background: '#D3051E', width: '40px', height: '40px', left: '50.9%', top: '7%', boxShadow: '0px 0px', display: 'none'}}
                     >
                         <h3 className="vertical-timeline-element-title vertical-title">4. Materializar</h3>
                         <h4 className="vertical-timeline-element-subtitle vertical-subtitle">
@@ -109,7 +109,7 @@ function About() {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--education"
                         contentStyle={{ background: 'transparent', color: '#fff', boxShadow: '0px 0px', paddingLeft: '10%'}}
-                        iconStyle={{ background: '#D3051E', width: '40px', height: '40px', left: '50.9%', top: '110%', boxShadow: '0px 0px'}}
+                        iconStyle={{ background: '#D3051E', width: '35px', height: '35px', left: '51.1%', top: '110%', boxShadow: '0px 0px'}}
                     >
                         <h3 className="vertical-timeline-element-title vertical-title">5. Integrar</h3>
                         <h4 className="vertical-timeline-element-subtitle vertical-subtitle">

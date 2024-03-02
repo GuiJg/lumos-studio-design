@@ -46,7 +46,7 @@ function Header() {
             </NavLink>
             <nav className="header-menu">
                 <NavLink to={"/portfolio"} className={({ isActive }) => isActive ? "header-link active" : "non-active header-link"}>PORTFÓLIO</NavLink>
-                <NavLink to={"https://lumos-studio.vercel.app/#contact"} className="header-link">CONTATO</NavLink>
+                <NavLink to={"#contato"} className="header-link">CONTATO</NavLink>
             </nav>
             <div className="hamburger-container" onClick={openNavBar}>
                 <label className="hamburger">

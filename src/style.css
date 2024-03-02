@@ -182,7 +182,7 @@ header {
 
 .header-link {
    text-decoration: none;
-   font-size: 1.1rem;
+   font-size: 1rem;
    color: #fff;
    transition: 0.5s;
 }
@@ -204,7 +204,7 @@ header {
 
 .non-active {
    color: #fff;
-   font-weight: 400;
+   font-weight: 500;
 }
 
 .hamburger-container {
@@ -332,7 +332,7 @@ header {
    padding: 5% 8% 5% 8%;
    background-size: 200% 200%;
    height: 40rem;
-   animation: moveGradientMain 2s linear infinite alternate;
+   animation: moveGradientMain 3.5s ease-in-out infinite alternate;
 }
 
 .about-page::after {
@@ -350,7 +350,7 @@ header {
 @keyframes moveGradientMain {
 
    0% {
-      background-position: 100% 50%;
+      background-position: 100% 38%;
    }
 
    100% {
