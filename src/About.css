@@ -118,22 +118,6 @@ body {
     height: 10rem;
 }
 
-@keyframes moveGradient {
-
-    0% {
-        background-position: 100% 0%;
-    }
-
-    50%{
-        background-position: 100% 50%;
-    }
-
-    100% { 
-        background-position: 100% 100%;
-    }
-
-}
-
 .container-timeline {
     background-image: radial-gradient(circle at 100% 50%, #d3051e 0%, #202020 10%);
     position: relative;
@@ -152,6 +136,22 @@ body {
     background-image: url("https://www.transparenttextures.com/patterns/otis-redding.png");
     opacity: 100%;
     z-index: 1;
+}
+
+@keyframes moveGradient {
+
+    0% {
+        background-position: 100% 0%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100% { 
+        background-position: 100% 100%;
+    }
+
 }
 
 .timeline-title {

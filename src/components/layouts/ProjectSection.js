@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function ProjectSection() {
     return (
@@ -98,11 +99,11 @@ function ProjectSection() {
                     </div>
                 </div>
             </div>
-            <button className="button-project">
+            <NavLink to={'/portfolio'} className="button-project">
                 <p>
                     Saiba mais
                 </p>
-            </button>
+            </NavLink>
             <div className="phrase-brand">
                 <p>
                     Com uma equipe capacitada <br />

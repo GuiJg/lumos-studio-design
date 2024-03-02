@@ -27,7 +27,7 @@ function NavBar() {
                     <NavLink to={"https://api.whatsapp.com/send?phone=5581986927127"} target='blank_' className="button-mensage">
                         <p>Enviar Mensagem</p>
                     </NavLink>
-                    <div className="hamburger-container">
+                    <div className="hamburger-container" id='button-hamburger'>
                         <label onClick={closeNavBar} id='menu-button' className="hamburger">
                             <input type="checkbox" />
                             <svg viewBox="0 0 32 32">

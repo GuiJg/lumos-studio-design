@@ -63,6 +63,7 @@
         flex-direction: column;
         gap: 5rem;
         margin-top: 2rem;
+        height: auto;
     }
 
     button.learn-more {
@@ -209,6 +210,7 @@
     }
 
     .menu-link {
+        font-size: 3.3rem;
         width: 70%;
     }
 
@@ -306,28 +308,27 @@
     .expertise-text-container{
         flex-direction: column;
         align-items: flex-start !important;
-        gap: 2rem !important;
-        padding-left: 10%;
+        gap: 3rem !important;
     }
 
-    .valores-container{
+    .service-title{
+        padding: 20% 10% 0% 5% !important;
+    }
+
+    .service-item{
+        flex-direction: column !important;
+    }
+
+    .lumos-different{
+        gap: 5rem;
+    }
+
+    .different-container{
         flex-direction: column;
-        text-align: start;
-        padding: 15% 0% 15% 0% !important;
     }
 
-    .valores-container span{
-        width: 100%;
-        padding-left: 9%;
-    }
-
-    .div-vertical{
-        width: 15rem !important;
-        height: 0.1rem !important;
-    }
-
-    .timeline-title svg{
-        width: 10% !important;
+    .bottom-section-service h2{
+        font-size: 3rem !important;
     }
 
 }
