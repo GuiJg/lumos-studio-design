@@ -38,7 +38,7 @@ header {
    flex-direction: column;
    justify-content: space-between;
    height: 50em;
-   padding: 1.7% 12% 5% 12%;
+   padding: 1.2% 14% 5% 14%;
    position: fixed;
    z-index: 10;
    transform: translateY(-100%);
@@ -240,11 +240,20 @@ header {
    stroke-dasharray: 12 63;
 }
 
-.hamburger input:checked+svg {
+/* .hamburger input:checked+svg {
    transform: rotate(-45deg);
 }
 
 .hamburger input:checked+svg .line-top-bottom {
+   stroke-dasharray: 20 300;
+   stroke-dashoffset: -32.42;
+} */
+
+#button-hamburger {
+   transform: rotate(-45deg);
+}
+
+#button-hamburger .line-top-bottom {
    stroke-dasharray: 20 300;
    stroke-dashoffset: -32.42;
 }
@@ -331,7 +340,10 @@ header {
    display: flex;
    justify-content: space-around;
    align-items: center;
-   background-image: radial-gradient(circle at 100% 50%, #fff -30%, #202020 15%);
+   background: #202020;
+   background-image: 
+      radial-gradient(circle at 100% 50%, #fff -30%, transparent 10%),
+      radial-gradient(circle at 50% 50%, #fff -70%, transparent 18%);
    position: relative;
    padding: 5% 8% 5% 8%;
    background-size: 200% 200%;
@@ -354,7 +366,7 @@ header {
 @keyframes moveGradientMain {
 
    0% {
-      background-position: 100% 38%;
+      background-position: 100% 50%;
    }
 
    100% {
@@ -515,7 +527,13 @@ button:active .button-text {
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   background-image: radial-gradient(circle at 100% 50%, #d3051db0, #202020 20%);
+   background-color: #202020;
+   background-image: 
+      radial-gradient(circle at 100% 50%, #d3051db0 -5%, transparent 13%), 
+      radial-gradient(circle at 50% 50%, #d3051db0 -10%, transparent 18%);
+   background-size: 200% 200%;
+   background-repeat: no-repeat;
+   animation: moveGradientServices 3.5s ease-in-out infinite alternate;
    position: relative;
    padding: 5% 10% 5% 10%;
 }
@@ -530,6 +548,18 @@ button:active .button-text {
    background-image: url("https://www.transparenttextures.com/patterns/otis-redding.png");
    opacity: 100%;
    z-index: 1;
+}
+
+@keyframes moveGradientServices {
+
+   0% {
+      background-position: 100% 35%;
+   }
+
+   100% {
+      background-position: 100% 63%;
+   }
+
 }
 
 .title-services {

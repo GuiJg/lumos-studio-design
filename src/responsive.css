@@ -5,11 +5,11 @@
 }
 
 @media screen and (max-width: 1169px) {
-    .vertical-timeline-element-content{
+    .vertical-timeline-element-content {
         padding-left: 2% !important;
     }
 
-    .vertical-timeline-element-icon{
+    .vertical-timeline-element-icon {
         left: 0.3% !important;
     }
 }
@@ -72,6 +72,19 @@
         gap: 5rem;
         margin-top: 2rem;
         height: auto;
+        background-image: radial-gradient(circle at 100% 50%, #fff -30%, #202020 20%);
+    }
+
+    @keyframes moveGradientMain {
+
+        0% {
+            background-position: 100% 27%;
+        }
+
+        100% {
+            background-position: 100% 73%;
+        }
+
     }
 
     button.learn-more {
@@ -136,7 +149,7 @@
         justify-content: center;
         align-items: center;
         gap: 3rem;
-        padding: 15% 10% 15% 10%;
+        padding: 5% 10% 5% 10% !important;
     }
 
     .links-container {
@@ -160,15 +173,15 @@
         gap: 10rem !important;
     }
 
-    .container-timeline{
+    .container-timeline {
         background-image: radial-gradient(circle at 100% 50%, #d3051e -30%, #202020 20%) !important;
     }
 
-    .timeline-title svg{
+    .timeline-title svg {
         width: 1.5rem !important;
     }
 
-    .vertical-timeline-element-icon{
+    .vertical-timeline-element-icon {
         left: 0.3% !important;
     }
 
@@ -178,17 +191,17 @@
         text-align: center;
     }
 
-    .valores-container span{
+    .valores-container span {
         text-align: start;
     }
 
-    .div-vertical{
+    .div-vertical {
         width: 30rem !important;
         height: 1px !important;
     }
 
-    footer {
-        padding: 5% 10% 5% 10% !important;
+    .services-page {
+        background-image: radial-gradient(circle at 100% 50%, #d3051e -15%, #202020 30%);
     }
 
 }
@@ -244,7 +257,7 @@
         height: 1px;
     }
 
-    .text-title-services{
+    .text-title-services {
         flex-direction: column;
         gap: 2rem;
     }
@@ -252,6 +265,10 @@
     .div-vertical {
         width: 15rem !important;
         height: 1px !important;
+    }
+
+    .services-home {
+        flex-direction: column;
     }
 
 
@@ -384,7 +401,7 @@
         flex-direction: column;
         align-items: flex-start !important;
         gap: 3rem !important;
-        padding-left: 10% !important; 
+        padding-left: 10% !important;
     }
 
     .service-title {
@@ -476,7 +493,7 @@
         gap: 1.5rem !important;
     }
 
-    .valores-container span{
+    .valores-container span {
         text-align: center;
     }
 
