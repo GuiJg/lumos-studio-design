@@ -327,7 +327,7 @@ header {
    display: flex;
    justify-content: space-around;
    align-items: center;
-   background-image: radial-gradient(circle at 100% 50%, #fff -10%, #202020 10%);
+   background-image: radial-gradient(circle at 100% 50%, #fff -30%, #202020 10%);
    position: relative;
    padding: 5% 8% 5% 8%;
    background-size: 200% 200%;
@@ -834,6 +834,7 @@ button:active .button-text {
    justify-content: center;
    align-items: flex-start;
    padding: 5% 10% 5% 10%;
+   width: 100%;
 }
 
 .title-contact {

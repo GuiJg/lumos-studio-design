@@ -46,7 +46,7 @@ function Header() {
             </NavLink>
             <nav className="header-menu">
                 <NavLink to={"/portfolio"} className={({ isActive }) => isActive ? "header-link active" : "non-active header-link"}>PORTFÓLIO</NavLink>
-                <NavLink to={"#contato"} className="header-link">CONTATO</NavLink>
+                <a href='#contato' className="header-link">CONTATO</a>
             </nav>
             <div className="hamburger-container" onClick={openNavBar}>
                 <label className="hamburger">

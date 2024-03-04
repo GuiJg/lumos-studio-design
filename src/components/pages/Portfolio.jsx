@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../../portfolio.css";
+import ContactSection from "../layouts/ContactSection";
 
 function Portfolio() {
     const [filter, setFilter] = useState(null);
@@ -75,25 +76,8 @@ function Portfolio() {
                     Vamos criar um projeto incrível juntos?
                 </h2>
             </div>
-            <div className="contact-page" id="contact-page">
-                <div className="title-contact">
-                    <h2>Entre em contato</h2>
-                    <div className="div-middle"></div>
-                </div>
-                <form action="https://formspree.io/f/xdoqzlle" method="POST" className="form">
-                    <label htmlFor="name">Nome</label>
-                    <input type="text" name="name" id="name" placeholder="Digite seu nome ou da sua empresa" required />
-                    <label htmlFor="email">E-mail</label>
-                    <input type="email" name="email" id="email" placeholder="Digite um e-mail válido" required />
-                    <label htmlFor="message">Mensagem</label>
-                    <textarea name="message" id="message" placeholder="Digite sua descrição aqui" required></textarea>
-                    <button type="submit">Solicitar Proposta</button>
-                </form>
-                <a href="#home" className="back-top">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
-                        <path fill="none" stroke="white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="m17 14l-5-5l-5 5" />
-                    </svg>
-                </a>
+            <div className="contact-page">
+                <ContactSection/>
             </div>
         </section>
     );
