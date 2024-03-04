@@ -76,9 +76,7 @@ function Portfolio() {
                     Vamos criar um projeto incrível juntos?
                 </h2>
             </div>
-            <div className="contact-page">
-                <ContactSection/>
-            </div>
+            <ContactSection/>
         </section>
     );
 }

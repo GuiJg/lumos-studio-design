@@ -41,8 +41,11 @@ function Header() {
                 <NavLink to={"/sobre"} className={({ isActive }) => isActive ? "header-link active" : "non-active header-link"}>SOBRE</NavLink>
                 <NavLink to={"/servicos"} className={({ isActive }) => isActive ? "header-link active" : "non-active header-link"}>SERVIÇOS</NavLink>
             </nav>
-            <NavLink to={"/"} className="header-logo">
+            <NavLink to={"/"} className="header-logo" id='logo-text'>
                 <img src="/lumos icons/LUMUS STUDIO SEM ICON HORIZONTAL NEGATIVO.png" alt="Logotipo branca escrito lumos studio" />
+            </NavLink>
+            <NavLink to={"/"} className="header-logo" id='logo-icon'>
+                <img src="/lumos icons/LUMUS STUDIO NEGATIVO_1.png" alt="Logotipo branca escrito lumos studio" />
             </NavLink>
             <nav className="header-menu">
                 <NavLink to={"/portfolio"} className={({ isActive }) => isActive ? "header-link active" : "non-active header-link"}>PORTFÓLIO</NavLink>

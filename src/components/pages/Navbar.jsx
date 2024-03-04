@@ -17,11 +17,11 @@ function NavBar() {
         <nav className="navbar" id='navbar'>
 
             <div className="navbar-logo">
-                <NavLink to={"/"} className="header-logo">
-                    <img src="/lumos icons/LUMUS STUDIO LOGO HORIZONTAL NEGATIVO.png" alt="Logotipo branca escrito lumos studio" />
+                <NavLink to={"/"} className="header-logo" id='logo-text'>
+                    <img src="/lumos icons/LUMUS STUDIO SEM ICON HORIZONTAL NEGATIVO.png" alt="Logotipo branca escrito lumos studio" />
                 </NavLink>
-                <NavLink to={"/"} className="logo-navbar">
-                    <img src="/lumos icons/LUMUS STUDIO EGATIVO_1.png" alt="Logotipo branca escrito lumos studio" />
+                <NavLink to={"/"} className="header-logo" id='logo-icon'>
+                    <img src="/lumos icons/LUMUS STUDIO NEGATIVO_1.png" alt="Logotipo branca escrito lumos studio" />
                 </NavLink>
                 <div className="menu-buttons">
                     <NavLink to={"https://api.whatsapp.com/send?phone=5581986927127"} target='blank_' className="button-mensage">
@@ -41,7 +41,7 @@ function NavBar() {
             <div className="menu">
                 <NavLink to={"/"} className={({ isActive }) => isActive ? "menu-link active" : "non-active menu-link"}>Início</NavLink>
                 <NavLink to={"/portfolio"} className={({ isActive }) => isActive ? "menu-link active" : "non-active menu-link"}>Portfólio</NavLink>
-                <NavLink to={"/websites"} className={({ isActive }) => isActive ? "menu-link active" : "non-active menu-link"}>Websites</NavLink>
+                <NavLink to={"/servicos"} className={({ isActive }) => isActive ? "menu-link active" : "non-active menu-link"}>Websites</NavLink>
                 <NavLink to={"/sobre"} className={({ isActive }) => isActive ? "menu-link active" : "non-active menu-link"}>Sobre</NavLink>
                 <NavLink to={"https://lumos-studio.vercel.app/#contact"} className="menu-link">Contato</NavLink>
             </div>

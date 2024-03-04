@@ -6,7 +6,7 @@ function ContactSection() {
     const [state, handleSubmit] = useForm("xdoqzlle");
     if (state.succeeded) {
         return alert("Proposta enviada, aguarde que retornamos em breve!")
-
+            
     }
 
     return (

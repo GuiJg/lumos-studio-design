@@ -46,7 +46,7 @@ header {
    background-image: radial-gradient(circle at 100% 50%, #d3051e 0%, #202020 10%);
    background-size: 200% 200%;
    animation: moveGradient 5s linear infinite alternate;
-   transition: trasform 0.5s ease;
+   transition: transform 0.5s ease-in-out;
 }
 
 .navbar::after {
@@ -61,7 +61,7 @@ header {
    z-index: 1;
 }
 
-#navbar{
+#navbar {
    transition: transform 1s ease-in-out;
 }
 
@@ -261,6 +261,10 @@ header {
    height: auto;
 }
 
+#logo-icon {
+   display: none;
+}
+
 .logo-navbar {
    display: none;
    justify-content: center;
@@ -327,7 +331,7 @@ header {
    display: flex;
    justify-content: space-around;
    align-items: center;
-   background-image: radial-gradient(circle at 100% 50%, #fff -30%, #202020 10%);
+   background-image: radial-gradient(circle at 100% 50%, #fff -30%, #202020 15%);
    position: relative;
    padding: 5% 8% 5% 8%;
    background-size: 200% 200%;

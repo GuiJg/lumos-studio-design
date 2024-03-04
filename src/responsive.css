@@ -1,25 +1,32 @@
-@media screen and (max-width: 1440px){
-    .hamburger-container{
+@media screen and (max-width: 1440px) {
+    .hamburger-container {
         width: 4rem;
     }
 }
 
-@media screen and (max-width: 1155px){
-    .hamburger-container{
+@media screen and (max-width: 1169px) {
+    .vertical-timeline-element-content{
+        padding-left: 2% !important;
+    }
+
+    .vertical-timeline-element-icon{
+        left: 0.3% !important;
+    }
+}
+
+@media screen and (max-width: 1155px) {
+    .hamburger-container {
         width: 6rem !important;
     }
 }
 
-@media screen and (max-width: 1024px){
-    .hamburger-container{
+@media screen and (max-width: 1024px) {
+    .hamburger-container {
         width: 10rem !important;
     }
 }
-@media screen and (max-width: 800px) {
 
-    * {
-        overflow-x: hidden;
-    }
+@media screen and (max-width: 800px) {
 
     header {
         justify-content: space-between;
@@ -31,6 +38,7 @@
         justify-content: start;
         gap: 1.5rem;
         padding: 2% 5% 2% 5%;
+        background-image: radial-gradient(circle at 100% 50%, #d3051e -15%, #202020 20%);
     }
 
     .logo-navbar {
@@ -136,11 +144,11 @@
         justify-content: flex-start;
     }
 
-    .hamburger-container{
+    .hamburger-container {
         width: 3rem !important;
     }
 
-    .about-text-container{
+    .about-text-container {
         flex-direction: column;
         align-items: flex-start !important;
         gap: 2rem;
@@ -148,15 +156,38 @@
         padding-left: 6.5%;
     }
 
-    .expertise-text-container{
+    .expertise-text-container {
         gap: 10rem !important;
     }
 
-    .valores-container{
-        gap: 2rem !important;
+    .container-timeline{
+        background-image: radial-gradient(circle at 100% 50%, #d3051e -30%, #202020 20%) !important;
     }
 
-    footer{
+    .timeline-title svg{
+        width: 1.5rem !important;
+    }
+
+    .vertical-timeline-element-icon{
+        left: 0.3% !important;
+    }
+
+    .valores-container {
+        flex-direction: column;
+        gap: 2.5rem !important;
+        text-align: center;
+    }
+
+    .valores-container span{
+        text-align: start;
+    }
+
+    .div-vertical{
+        width: 30rem !important;
+        height: 1px !important;
+    }
+
+    footer {
         padding: 5% 10% 5% 10% !important;
     }
 
@@ -182,16 +213,60 @@
         padding: 5% 3% 5% 3%;
     }
 
-    .about-text-container{
+    .about-text-container {
         padding: 10% 5% 10% 8% !important;
     }
 
-    .expertise-text-container{
+    .expertise-text-container {
         gap: 5rem !important;
     }
+
+    .text-item,
+    #reverse {
+        flex-direction: column !important;
+    }
+
+    .title-project {
+        width: 20rem;
+        transform: translate(0%, 0%);
+    }
+
+    .title-div h2 {
+        font-size: 1.5rem;
+        font-weight: 200;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    .div {
+        background-color: #D3051E;
+        width: 10rem;
+        height: 1px;
+    }
+
+    .text-title-services{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .div-vertical {
+        width: 15rem !important;
+        height: 1px !important;
+    }
+
+
 }
 
 @media screen and (max-width: 425px) {
+
+    #logo-text {
+        display: none;
+    }
+
+    #logo-icon {
+        display: flex;
+        width: 6.5rem;
+    }
 
     .navbar {
         padding: 2% 5% 2% 5%;
@@ -305,29 +380,30 @@
         font-size: 3rem !important;
     }
 
-    .expertise-text-container{
+    .expertise-text-container {
         flex-direction: column;
         align-items: flex-start !important;
         gap: 3rem !important;
+        padding-left: 10% !important; 
     }
 
-    .service-title{
+    .service-title {
         padding: 20% 10% 0% 5% !important;
     }
 
-    .service-item{
+    .service-item {
         flex-direction: column !important;
     }
 
-    .lumos-different{
+    .lumos-different {
         gap: 5rem;
     }
 
-    .different-container{
+    .different-container {
         flex-direction: column;
     }
 
-    .bottom-section-service h2{
+    .bottom-section-service h2 {
         font-size: 3rem !important;
     }
 
@@ -398,6 +474,10 @@
     .container-filters {
         grid-template-columns: repeat(1, 1fr) !important;
         gap: 1.5rem !important;
+    }
+
+    .valores-container span{
+        text-align: center;
     }
 
 }

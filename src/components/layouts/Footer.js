@@ -17,7 +17,7 @@ function Footer() {
                 
                     <div className="item-link">
                         <span>Links Úteis</span>
-                        <NavLink to={"/websites"} className="footer-link">Websites</NavLink>
+                        <NavLink to={"/servicos"} className="footer-link">Websites</NavLink>
                         <NavLink to={"/servicos"} className="footer-link">Social Media</NavLink>
                         <NavLink to={"/servicos"} className="footer-link">Identidade Visual</NavLink>
                         <NavLink to={"/portfolio"} className="footer-link">Portfólio</NavLink>
