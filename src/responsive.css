@@ -204,6 +204,10 @@
         background-image: radial-gradient(circle at 100% 50%, #d3051e -15%, #202020 30%);
     }
 
+    .back-top{
+        left: 80%;
+    }
+
 }
 
 @media screen and (max-width: 570px) {
@@ -405,7 +409,11 @@
     }
 
     .service-title {
-        padding: 20% 10% 0% 5% !important;
+        padding: 30% 10% 30% 5% !important;
+    }
+
+    .service-title h2{
+        font-size: 3.2rem !important;
     }
 
     .service-item {

@@ -8,11 +8,9 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Services from './components/pages/Services'; 
 import Portfolio from './components/pages/Portfolio';
-import Websites from './components/pages/Websites';
 
 import './style.css';
 import './responsive.css';
-
 
 const router = createBrowserRouter([ 
     {
@@ -37,12 +35,7 @@ const router = createBrowserRouter([
             {
                 path: "/portfolio",
                 element: <Portfolio/>,
-            },
-
-            {
-                path: "/websites",
-                element: <Websites/>, 
-            },
+            }
         ]
     }
 ])
@@ -55,5 +48,6 @@ ReactDOM.render(
     </React.StrictMode>,
     document.getElementById('root') 
 );
+
 
 reportWebVitals();

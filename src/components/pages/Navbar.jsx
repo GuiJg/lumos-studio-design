@@ -43,7 +43,7 @@ function NavBar() {
                 <NavLink to={"/portfolio"} className={({ isActive }) => isActive ? "menu-link active" : "non-active menu-link"}>Portfólio</NavLink>
                 <NavLink to={"/servicos"} className={({ isActive }) => isActive ? "menu-link active" : "non-active menu-link"}>Websites</NavLink>
                 <NavLink to={"/sobre"} className={({ isActive }) => isActive ? "menu-link active" : "non-active menu-link"}>Sobre</NavLink>
-                <NavLink to={"https://lumos-studio.vercel.app/#contact"} className="menu-link">Contato</NavLink>
+                <NavLink to={"https://lumostudio.com.br/#contato"} className={({ isActive }) => isActive ? "menu-link active" : "non-active menu-link"}>Contato</NavLink> 
             </div>
             <div className="social-description">
                 <span>Copyright © | Lumos Studio Design</span>
