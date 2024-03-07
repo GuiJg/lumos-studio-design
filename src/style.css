@@ -392,9 +392,9 @@ header {
    z-index: 1;
 }
 
-/* .splide__arrow{
+.splide__arrow{
    display: none !important;
-} */
+}
 
 .splide__pagination__page{
    display: none !important;
