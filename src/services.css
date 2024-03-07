@@ -104,7 +104,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20% 5% 0% 5%;
+    margin: 20% 5% 5% 5%;
+}
+
+.splide__list{
+    overflow-x: visible !important;
 }
 
 .container-image img {
@@ -115,7 +119,7 @@
 }
 
 #div-service {
-    width: 100%;
+    width: 90%;
 }
 
 .services {
@@ -123,12 +127,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 3% 0% 10% 0%;
+    margin: 10% 0% 10% 0%;
     gap: 10rem;
 }
 
 .services span {
-    font-size: 1.5rem;
+    font-family: 'Sulphur Point', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.7rem;
     font-weight: 400;
     color: #fff;
 }

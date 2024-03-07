@@ -12,7 +12,7 @@ function About() {
             <div className="about-text-container">
                 <div className="about-title">
                     <p>sobre nós</p>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 256 256"><path fill="white" d="m220.24 132.24l-72 72a6 6 0 0 1-8.48-8.48L201.51 134H40a6 6 0 0 1 0-12h161.51l-61.75-61.76a6 6 0 0 1 8.48-8.48l72 72a6 6 0 0 1 0 8.48" /></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 256 256" className="svg"><path fill="white" d="m220.24 132.24l-72 72a6 6 0 0 1-8.48-8.48L201.51 134H40a6 6 0 0 1 0-12h161.51l-61.75-61.76a6 6 0 0 1 8.48-8.48l72 72a6 6 0 0 1 0 8.48" /></svg>
                 </div>
                 <div className="about-text">
                     <p>
@@ -29,7 +29,7 @@ function About() {
             <div className="expertise-text-container">
                 <div className="expertise-title">
                     <p>expertises</p>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 256 256"><path fill="white" d="m220.24 132.24l-72 72a6 6 0 0 1-8.48-8.48L201.51 134H40a6 6 0 0 1 0-12h161.51l-61.75-61.76a6 6 0 0 1 8.48-8.48l72 72a6 6 0 0 1 0 8.48" /></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 256 256" className="svg"><path fill="white" d="m220.24 132.24l-72 72a6 6 0 0 1-8.48-8.48L201.51 134H40a6 6 0 0 1 0-12h161.51l-61.75-61.76a6 6 0 0 1 8.48-8.48l72 72a6 6 0 0 1 0 8.48" /></svg>
                 </div>
                 <div className="expertise-text">
                     <p>
@@ -59,14 +59,14 @@ function About() {
             <div className="container-timeline">
                 <div className="timeline-title">
                     <p>Processos</p>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 256 256"><path fill="white" d="m220.24 132.24l-72 72a6 6 0 0 1-8.48-8.48L201.51 134H40a6 6 0 0 1 0-12h161.51l-61.75-61.76a6 6 0 0 1 8.48-8.48l72 72a6 6 0 0 1 0 8.48" /></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 256 256" className="svg-timeline"><path fill="white" d="m220.24 132.24l-72 72a6 6 0 0 1-8.48-8.48L201.51 134H40a6 6 0 0 1 0-12h161.51l-61.75-61.76a6 6 0 0 1 8.48-8.48l72 72a6 6 0 0 1 0 8.48" /></svg>
                 </div>
                 <VerticalTimeline>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: 'transparent', color: '#fff', boxShadow: '0px 0px', paddingLeft: '10%' }}
                         iconStyle={{ background: '#D3051E', width: '35px', height: '35px', left: '51.1%', top: '-40%', boxShadow: '0px 0px' }}
-                        style={{zIndex: '8'}}
+                        style={{ zIndex: '8' }}
                     >
                         <h3 className="vertical-timeline-element-title vertical-title">1. Conhecer</h3>
                         <h4 className="vertical-timeline-element-subtitle vertical-subtitle">
@@ -78,7 +78,7 @@ function About() {
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: 'transparent', color: '#fff', boxShadow: '0px 0px', paddingRight: '10%' }}
                         iconStyle={{ background: '#D3051E', width: '40px', height: '40px', left: '50.9%', top: '7%', boxShadow: '0px 0px', display: 'none' }}
-                        style={{zIndex: '8'}}
+                        style={{ zIndex: '8' }}
                     >
                         <h3 className="vertical-timeline-element-title vertical-title">2. Estruturar</h3>
                         <h4 className="vertical-timeline-element-subtitle vertical-subtitle">
@@ -90,7 +90,7 @@ function About() {
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: 'transparent', color: '#fff', boxShadow: '0px 0px', paddingLeft: '10%' }}
                         iconStyle={{ background: '#D3051E', width: '40px', height: '40px', left: '50.9%', top: '7%', boxShadow: '0px 0px', display: 'none' }}
-                        style={{zIndex: '8'}}
+                        style={{ zIndex: '8' }}
                     >
                         <h3 className="vertical-timeline-element-title vertical-title">3. Visualizar</h3>
                         <h4 className="vertical-timeline-element-subtitle vertical-subtitle">
@@ -102,7 +102,7 @@ function About() {
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: 'transparent', color: '#fff', boxShadow: '0px 0px', paddingRight: '10%' }}
                         iconStyle={{ background: '#D3051E', width: '40px', height: '40px', left: '50.9%', top: '7%', boxShadow: '0px 0px', display: 'none' }}
-                        style={{zIndex: '8'}}
+                        style={{ zIndex: '8' }}
                     >
                         <h3 className="vertical-timeline-element-title vertical-title">4. Materializar</h3>
                         <h4 className="vertical-timeline-element-subtitle vertical-subtitle">
@@ -113,8 +113,8 @@ function About() {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--education"
                         contentStyle={{ background: 'transparent', color: '#fff', boxShadow: '0px 0px', paddingLeft: '10%' }}
-                        iconStyle={{ background: '#D3051E', width: '35px', height: '35px', left: '51.1%', top: '110%', boxShadow: '0px 0px'}}
-                        style={{zIndex: '8'}}
+                        iconStyle={{ background: '#D3051E', width: '35px', height: '35px', left: '51.1%', top: '110%', boxShadow: '0px 0px' }}
+                        style={{ zIndex: '8' }}
                     >
                         <h3 className="vertical-timeline-element-title vertical-title">5. Integrar</h3>
                         <h4 className="vertical-timeline-element-subtitle vertical-subtitle">
