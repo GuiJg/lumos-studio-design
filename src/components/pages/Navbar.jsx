@@ -17,10 +17,10 @@ function NavBar() {
         <nav className="navbar" id='navbar'>
 
             <div className="navbar-logo">
-                <NavLink to={"/"} className="header-logo" id='logo-text'>
+                <NavLink to={"/"} onClick={closeNavBar} className="header-logo" id='logo-text'>
                     <img src="/lumos icons/LUMUS STUDIO SEM ICON HORIZONTAL NEGATIVO.png" alt="Logotipo branca escrito lumos studio" />
                 </NavLink>
-                <NavLink to={"/"} className="header-logo" id='logo-icon'>
+                <NavLink to={"/"} onClick={closeNavBar} className="header-logo" id='logo-icon'>
                     <img src="/lumos icons/LUMUS STUDIO NEGATIVO_1.png" alt="Logotipo branca escrito lumos studio" />
                 </NavLink>
                 <div className="menu-buttons">
@@ -39,11 +39,11 @@ function NavBar() {
                 </div>
             </div>
             <div className="menu">
-                <NavLink to={"/"} className={({ isActive }) => isActive ? "menu-link active" : "non-active menu-link"}>Início</NavLink>
-                <NavLink to={"/portfolio"} className={({ isActive }) => isActive ? "menu-link active" : "non-active menu-link"}>Portfólio</NavLink>
-                <NavLink to={"/servicos"} className={({ isActive }) => isActive ? "menu-link active" : "non-active menu-link"}>Websites</NavLink>
-                <NavLink to={"/sobre"} className={({ isActive }) => isActive ? "menu-link active" : "non-active menu-link"}>Sobre</NavLink>
-                <NavLink to={"https://lumostudio.com.br/#contato"} className={({ isActive }) => isActive ? "menu-link active" : "non-active menu-link"}>Contato</NavLink> 
+                <NavLink to={"/"} onClick={closeNavBar} className={({ isActive }) => isActive ? "menu-link active" : "non-active menu-link"}>Início</NavLink>
+                <NavLink to={"/portfolio"} onClick={closeNavBar} className={({ isActive }) => isActive ? "menu-link active" : "non-active menu-link"}>Portfólio</NavLink>
+                <NavLink to={"/servicos"} onClick={closeNavBar} className={({ isActive }) => isActive ? "menu-link active" : "non-active menu-link"}>Websites</NavLink>
+                <NavLink to={"/sobre"} onClick={closeNavBar} className={({ isActive }) => isActive ? "menu-link active" : "non-active menu-link"}>Sobre</NavLink>
+                <NavLink to={"https://lumostudio.com.br/#contato"} onClick={closeNavBar} className={({ isActive }) => isActive ? "menu-link active" : "non-active menu-link"}>Contato</NavLink> 
             </div>
             <div className="social-description">
                 <span>Copyright © | Lumos Studio Design</span>

@@ -9,8 +9,8 @@ function BannerSection() {
         const splide = new Splide('.splide', {
             type: 'fade',
             rewind: true,
-            autoplay: true, 
-            interval: 3000, 
+            autoplay: true,
+            interval: 3000,
         });
 
         splide.mount();
@@ -21,7 +21,7 @@ function BannerSection() {
             <div className="splide">
                 <div className="splide__track">
                     <ul className="splide__list">
-                        <li className="splide__slide slider1">
+                        <li className="splide__slide slide-banner slider1">
                             <div className="text-banner">
                                 <p>
                                     CREATIVE <br />
@@ -40,8 +40,14 @@ function BannerSection() {
                                     te faz crescer.
                                 </h1>
                             </div>
+                            <a href="#contact" id="reverse-banner">
+                                <p>
+                                    FAÇA O SEU<br />
+                                    ORÇAMENTO!
+                                </p>
+                            </a>
                         </li>
-                        <li className="splide__slide slider2">
+                        <li className="splide__slide slide-banner slider2">
                             <div className="text-banner">
                                 <p>
                                     CREATIVE <br />
@@ -60,8 +66,14 @@ function BannerSection() {
                                     transformam a sua marca.
                                 </h1>
                             </div>
+                            <a href="#contact" id="reverse-banner">
+                                <p>
+                                    FAÇA O SEU<br />
+                                    ORÇAMENTO!
+                                </p>
+                            </a>
                         </li>
-                        <li className="splide__slide slider3">
+                        <li className="splide__slide slide-banner slider3">
                             <div className="text-banner">
                                 <p>
                                     CREATIVE <br />
@@ -80,6 +92,12 @@ function BannerSection() {
                                     a nossa prioridade.
                                 </h1>
                             </div>
+                            <a href="#contact" id="reverse-banner">
+                                <p>
+                                    FAÇA O SEU<br />
+                                    ORÇAMENTO!
+                                </p>
+                            </a>
                         </li>
                     </ul>
                 </div>

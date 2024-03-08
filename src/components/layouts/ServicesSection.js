@@ -24,7 +24,7 @@ function ServicesSection() {
                 </div>
             </div>
             <div className="services-container">
-                <p>Lhe proporcionamos um serviço personalizado.</p>
+                <h2>Lhe proporcionamos um serviço personalizado.</h2>
                 <div className="services-home">
                     <div className="services-item">
                         <div className="title-border">

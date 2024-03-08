@@ -1,9 +1,13 @@
+body {
+    overflow-x: hidden;
+}
+
 .services-cont {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 15% 0% 10% 0%;
+    padding: 10% 0% 10% 0%;
 }
 
 .service-title {
@@ -12,7 +16,7 @@
     justify-content: center;
     align-items: flex-start;
     width: 100%;
-    padding: 2% 10% 0% 10%;
+    padding: 2% 10% 2% 10%;
     gap: 1.5rem;
 }
 
@@ -40,7 +44,7 @@
     top: 50%;
     overflow: hidden;
     z-index: 2;
-    transform: translate(0rem, 13rem);
+    transform: translate(0rem, 10rem);
 }
 
 .main__scroll {
@@ -104,7 +108,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20% 5% 5% 5%;
+    margin: 10% 5% 5% 5%;
 }
 
 .splide__list{
@@ -154,11 +158,6 @@
     font-weight: 400;
     color: #fff;
     width: 100%;
-}
-
-#reverse {
-    flex-direction: row-reverse; 
-    text-align: end;
 }
 
 .service-item p {

@@ -8,7 +8,12 @@
    scroll-behavior: smooth;
 }
 
-h1, h2, h3, p, span, strong{
+h1,
+h2,
+h3,
+p,
+span,
+strong {
    cursor: context-menu;
 }
 
@@ -298,11 +303,15 @@ header {
    align-items: center;
 }
 
-.splide__slide{
+.slide-banner {
    padding: 5% 10% 5% 10%;
    width: 100%;
    overflow: hidden;
    height: 45rem;
+}
+
+#reverse-banner{
+   display: none;
 }
 
 .slider1 {
@@ -334,7 +343,7 @@ header {
    z-index: 1;
 }
 
-.slider2{
+.slider2 {
    position: relative !important;
 }
 
@@ -355,7 +364,7 @@ header {
    top: 0;
    left: 0;
    width: 100%;
-   height: 100%; 
+   height: 100%;
    background-image: url(/public/banner2.png);
    background-position: center;
    background-repeat: no-repeat;
@@ -363,7 +372,7 @@ header {
    z-index: 1;
 }
 
-.slider3{
+.slider3 {
    position: relative !important;
 }
 
@@ -392,11 +401,11 @@ header {
    z-index: 1;
 }
 
-.splide__arrow{
+.splide__arrow {
    display: none !important;
 }
 
-.splide__pagination__page{
+.splide__pagination__page {
    display: none !important;
 }
 
@@ -418,7 +427,7 @@ header {
 }
 
 .text-banner a p {
-   text-decoration: none;
+   cursor: pointer; 
    text-align: end;
 }
 
@@ -449,7 +458,7 @@ header {
       radial-gradient(circle at 100% 50%, #fff -30%, transparent 10%),
       radial-gradient(circle at 50% 50%, #fff -70%, transparent 18%);
    position: relative;
-   padding: 5% 8% 5% 8%;
+   padding: 3% 8% 5% 8%;
    background-size: 200% 200%;
    height: 40rem;
    animation: moveGradientMain 3.5s ease-in-out infinite alternate;
@@ -639,7 +648,7 @@ button:active .button-text {
    background-repeat: no-repeat;
    animation: moveGradientServices 3.5s ease-in-out infinite alternate;
    position: relative;
-   padding: 5% 10% 5% 10%;
+   padding: 5% 10% 3% 10%;
 }
 
 .services-page::after {
@@ -672,7 +681,7 @@ button:active .button-text {
    justify-content: center;
    align-items: center;
    width: 100%;
-   padding-bottom: 12%;
+   padding-bottom: 7%;
    border-bottom: 1px solid #D3051E;
    gap: 2.5rem;
 }
@@ -707,9 +716,17 @@ button:active .button-text {
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   padding: 12% 3% 5% 3%;
+   padding: 7% 3% 3% 3%;
    gap: 3.5rem;
    z-index: 2;
+}
+
+.services-container h2 {
+   font-family: 'Sulphur Point', sans-serif;
+   font-size: 2rem;
+   font-weight: 400;
+   color: #fff;
+   margin-bottom: 5%;
 }
 
 .services-home {
@@ -718,10 +735,6 @@ button:active .button-text {
    align-items: center;
    gap: 5rem;
    text-align: start;
-}
-
-.services-container p {
-   color: #fff;
 }
 
 .services-item {
@@ -780,6 +793,7 @@ button:active .button-text {
    font-family: 'K2D', sans-serif;
    font-size: 1rem;
    color: #fff;
+   cursor: pointer;
 }
 
 .project-page {
@@ -920,12 +934,13 @@ button:active .button-text {
    background-color: transparent;
    border-radius: 10em;
    padding: 1.1%;
-   cursor: pointer;
+   text-decoration: none;
    width: 17%;
    transition: 0.5s;
 }
 
 .button-project p {
+   cursor: pointer;
    font-family: 'K2D', sans-serif;
    font-size: 1rem;
    color: #fff;

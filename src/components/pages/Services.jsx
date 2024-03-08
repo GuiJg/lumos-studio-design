@@ -1,6 +1,7 @@
 import React from "react";
-import "../../services.css"
 import SplideSlider from "./AutoScroll";
+
+import "../../services.css"
 
 function Services() {
 
@@ -12,8 +13,8 @@ function Services() {
                     Personalidade.
                 </h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing <br />
-                    elit. Sed do eiusmod tempor incididunt ut labore et.
+                    Transformamos ideias em experiências digitais envolventes, <br />
+                    combinando criatividade e tecnologia para dar vida ao seu projeto online.
                 </p>
             </div>
             <div class="main__action">
@@ -43,7 +44,7 @@ function Services() {
                     <div className="border"></div>
                 </div>
                 <div className="service-item">
-                    <div className="text-item" id="reverse">
+                    <div className="text-item">
                         <h2>Social Media Design</h2>
                         <p>
                             Transformamos suas redes sociais em comunidades envolventes, contando sua história de maneira cativante e construindo relacionamentos genuínos com seu público.
@@ -70,19 +71,19 @@ function Services() {
                     <div className="different-item">
                         <span>1.</span>
                         <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit eaque perspiciatis culpa id odit doloribus officiis hic velit amet.
+                            Nossa abordagem centrada no cliente se destaca por compreender profundamente as necessidades e valores de cada cliente, resultando em soluções personalizadas e impactantes.
                         </p>
                     </div>
                     <div className="different-item">
                         <span>2.</span>
                         <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit eaque perspiciatis culpa id odit doloribus officiis hic velit amet.
+                            Nosso estúdio se destaca por criar designs contemporâneos e inovadores que superam expectativas, utilizando as últimas tendências e tecnologias para se destacar no mercado competitivo.
                         </p>
                     </div>
                     <div className="different-item">
                         <span>3.</span>
                         <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit eaque perspiciatis culpa id odit doloribus officiis hic velit amet.
+                            Abordagem Integrada: Oferecemos uma abordagem integrada para o desenvolvimento da marca, combinando websites, redes sociais e identidade visual de forma coesa e consistente.
                         </p>
                     </div>
                 </div>
@@ -95,7 +96,6 @@ function Services() {
             </div>
         </section>
     );
-
 }
 
 export default Services; 
