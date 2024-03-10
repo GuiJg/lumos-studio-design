@@ -38,8 +38,6 @@
     justify-items: center;
     align-items: center;
     gap: 3rem;
-    margin-top: 5%;
-    padding: 1%;
 }
 
 .filter-btn {
@@ -84,7 +82,8 @@
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
-    padding: 5% 10% 5% 10%;
+    padding: 5% 1% 5% 1%;
+    width: 85%;
 }
 
 .phrase-project {

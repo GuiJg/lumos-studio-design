@@ -337,7 +337,16 @@
     #reverse-banner{
         display: flex;
         position: relative;
+        transform: translate(8.5rem, 19rem);
+        text-decoration: none;
         z-index: 8;
+    }
+
+    #reverse-banner p{
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: #fff;
+        text-align: center;
     }
 
     .title-banner {
@@ -345,12 +354,21 @@
     }
 
     .title-banner h1 {
-        font-size: 3rem;
+        transform: translateY(10rem);
+        font-size: 2.2rem !important;
         text-align: center;
     }
 
     .text-banner {
-        transform: translateY(0rem);
+        transform: translate(9.5rem, 10rem);
+    }
+
+    .text-banner p{
+        text-align: center;
+    }
+
+    .text-banner a {
+        display: none;
     }
 
     .services-home {
@@ -400,6 +418,10 @@
         padding: 3%;
     }
 
+    .title-project p{
+        font-size: 1rem;
+    }
+
     .project-container-filter {
         gap: 3rem;
     }
@@ -442,7 +464,6 @@
     .bottom-section-service h2 {
         font-size: 3rem !important;
     }
-
 }
 
 @media screen and (max-width: 375px) {

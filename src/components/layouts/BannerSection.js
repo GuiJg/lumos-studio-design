@@ -10,6 +10,7 @@ function BannerSection() {
             type: 'fade',
             rewind: true,
             autoplay: true,
+            pauseOnHover: false,
             interval: 3000,
         });
 
