@@ -8,7 +8,7 @@ function ProjectSection() {
                 <h2>Projetos</h2>
             </div>
             <div className="container-project">
-                <div className="item-project">
+                <NavLink to={'/portfolio'} className="item-project">
                     <div className="image-project">
                         <img src="project 1.png" alt="" />
                     </div>
@@ -22,8 +22,8 @@ function ProjectSection() {
                             elit. Sed ac risus sed ligula fermentum bibendum
                         </p>
                     </div>
-                </div>
-                <div className="item-project">
+                </NavLink>
+                <NavLink to={'/portfolio'} className="item-project">
                     <div className="image-project">
                         <img src="project 2.png" alt="" />
                     </div>
@@ -37,8 +37,8 @@ function ProjectSection() {
                             elit. Sed ac risus sed ligula fermentum bibendum
                         </p>
                     </div>
-                </div>
-                <div className="item-project">
+                </NavLink>
+                <NavLink to={'/portfolio'} className="item-project">
                     <div className="image-project">
                         <img src="project 3.png" alt="" />
                     </div>
@@ -52,8 +52,8 @@ function ProjectSection() {
                             elit. Sed ac risus sed ligula fermentum bibendum
                         </p>
                     </div>
-                </div>
-                <div className="item-project">
+                </NavLink>
+                <NavLink to={'/portfolio'} className="item-project">
                     <div className="image-project">
                         <img src="project 4.png" alt="" />
                     </div>
@@ -67,8 +67,8 @@ function ProjectSection() {
                             elit. Sed ac risus sed ligula fermentum bibendum
                         </p>
                     </div>
-                </div>
-                <div className="item-project">
+                </NavLink>
+                <NavLink to={'/portfolio'} className="item-project">
                     <div className="image-project">
                         <img src="project 5.png" alt="" />
                     </div>
@@ -82,8 +82,8 @@ function ProjectSection() {
                             elit. Sed ac risus sed ligula fermentum bibendum
                         </p>
                     </div>
-                </div>
-                <div className="item-project">
+                </NavLink>
+                <NavLink to={'/portfolio'} className="item-project">
                     <div className="image-project">
                         <img src="project 6.png" alt="" />
                     </div>
@@ -97,7 +97,7 @@ function ProjectSection() {
                             elit. Sed ac risus sed ligula fermentum bibendum
                         </p>
                     </div>
-                </div>
+                </NavLink>
             </div>
             <NavLink to={'/portfolio'} className="button-project">
                 <p>

@@ -27,7 +27,7 @@ header {
    display: flex;
    justify-content: center;
    align-items: center;
-   gap: 7rem;
+   gap: 5rem;
    padding: 1% 5% 1% 6%;
    width: 100%;
    position: fixed;
@@ -888,7 +888,7 @@ button:active .button-text {
    position: absolute;
    background: linear-gradient(to top, transparent 0%, transparent 100%);
    pointer-events: none;
-   transform: translate(3%, 140%);
+   transform: translate(0rem, 7rem);
    transition: all 0.3s;
 }
 

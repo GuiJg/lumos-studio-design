@@ -63,8 +63,7 @@ function BannerSection() {
                             </div>
                             <div className="title-banner">
                                 <h1>
-                                    Designs impactantes que <br />
-                                    transformam a sua marca.
+                                    Designs impactantes que transformam a sua marca.
                                 </h1>
                             </div>
                             <a href="#contact" id="reverse-banner">

@@ -290,6 +290,7 @@
     }
 
     .navbar {
+        gap: 4rem;
         padding: 2% 5% 2% 5%;
     }
 
@@ -371,6 +372,10 @@
         display: none;
     }
 
+    .title-about h2{
+        font-size: 3.5rem;
+    }
+
     .services-home {
         flex-direction: column;
     }
@@ -439,6 +444,10 @@
         align-items: flex-start !important;
         gap: 3rem !important;
         padding-left: 10% !important;
+    }
+
+    .services{
+        margin-top: 25% !important;
     }
 
     .service-title {

@@ -86,6 +86,10 @@
     width: 85%;
 }
 
+#portfolio{
+    width: 35rem;
+}
+
 .phrase-project {
     display: flex;
     justify-content: center;

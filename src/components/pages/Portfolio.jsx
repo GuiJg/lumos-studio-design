@@ -60,7 +60,7 @@ function Portfolio() {
                             <div className="image-project">
                                 <img src={project.image} alt="" />
                             </div>
-                            <div className="title-project">
+                            <div className="title-project" id="portfolio">
                                 <div className="title-div">
                                     <h2>{project.title}</h2>
                                     <div className="div"></div>
