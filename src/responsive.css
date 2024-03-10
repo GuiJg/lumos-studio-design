@@ -188,11 +188,15 @@
     .valores-container {
         flex-direction: column;
         gap: 2.5rem !important;
-        text-align: center;
+        padding: 12% !important;
     }
 
-    .valores-container span {
+    .valores-container p, .valores-container span {
         text-align: start;
+    }
+
+    .valores-container p br{
+        display: none;
     }
 
     .div-vertical {
@@ -212,12 +216,16 @@
 
 @media screen and (max-width: 570px) {
 
+    .text-description br {
+        display: none;
+    }
+
     .logo-navbar {
         width: 45%;
     }
 
     .menu-buttons {
-        gap: 0.5rem;
+        gap: 2rem;
     }
 
     .mensage-btn {
@@ -274,7 +282,6 @@
     .services-home {
         flex-direction: column;
     }
-
 
 }
 
@@ -405,7 +412,7 @@
     .phrase-brand {
         flex-direction: column;
         gap: 2rem;
-        padding: 10% 0% 10% 0%;
+        padding: 10% 0% 15% 0%;
     }
 
     .phrase-brand h2 {
@@ -428,7 +435,16 @@
     }
 
     .project-container-filter {
+        margin-top: 13%;
         gap: 3rem;
+    }
+
+    .container-filters{
+        gap: 1.5rem !important;
+    }
+
+    .filter-btn{
+        width: 10rem !important;
     }
 
     .portfolio-title {
@@ -436,7 +452,11 @@
     }
 
     .portfolio-title h2 {
-        font-size: 3rem !important;
+        font-size: 2.5rem !important;
+    }
+
+    .portfolio-title br{
+        display: none;
     }
 
     .expertise-text-container {
@@ -444,6 +464,11 @@
         align-items: flex-start !important;
         gap: 3rem !important;
         padding-left: 10% !important;
+    }
+
+    .title-services h2{
+        font-size: 3.4rem;
+        text-align: start;
     }
 
     .services{
@@ -540,10 +565,6 @@
     .container-filters {
         grid-template-columns: repeat(1, 1fr) !important;
         gap: 1.5rem !important;
-    }
-
-    .valores-container span {
-        text-align: center;
     }
 
 }
