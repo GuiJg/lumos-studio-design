@@ -18,16 +18,16 @@ function ContactSection() {
             <form onSubmit={handleSubmit} method="POST" className="form">
                 <label htmlFor="name">Nome</label>
                 <input type="text" name="name" id="name" placeholder="Digite seu nome e
-                 da sua empresa" required />
+                 da sua empresa" required autoComplete="name"/>
                 <label htmlFor="email">E-mail</label>
-                <input type="email" name="email" id="email" placeholder="Digite um e-mail válido" required />
+                <input type="email" name="email" id="email" placeholder="Digite um e-mail válido" required autoComplete="email"/>
                 <ValidationError
                     prefix="Email"
                     field="email"
                     errors={state.errors}
                 />
                 <label htmlFor="phone">Telefone</label>
-                <input type="text" name="phone" id="phone" placeholder="Digite um número para contato" required />
+                <input type="text" name="phone" id="phone" placeholder="Digite um número para contato" required autoComplete="tel"/>
                 <ValidationError
                     prefix="Phone"
                     field="phone"
