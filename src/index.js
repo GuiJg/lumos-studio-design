@@ -18,10 +18,7 @@ function App() {
             <Outlet />
             <BackToTopButton />
             <Footer />
-            <SpeedInsights
-                url="https://lumostudio.com.br"
-                locale="pt-BR"
-            />
+            <SpeedInsights />
         </>
     )
 }
