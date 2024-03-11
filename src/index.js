@@ -1,53 +1,29 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import Home from './components/pages/Home';
-import About from './components/pages/About';
-import Services from './components/pages/Services'; 
-import Portfolio from './components/pages/Portfolio';
+import NavBar from './components/pages/Navbar';
+import Header from './components/pages/Header';
+import BackToTopButton from './components/pages/BackToTopButton';
+import Footer from './components/layouts/Footer';
 
 import './style.css';
 import './responsive.css';
 
-const router = createBrowserRouter([ 
-    {
-        path: "/",
-        element: <App />,
-        children: [
-            {
-                path: "/",
-                element: <Home/>, 
-            }, 
+function App() {
+    return (
+        <>
+            <NavBar />
+            <Header />
+            <Outlet />
+            <BackToTopButton />
+            <Footer />
+            <SpeedInsights
+                url="https://lumostudio.com.br"
+                locale="pt-BR"
+            />
+        </>
+    )
+}
 
-            {
-                path: "/sobre",
-                element: <About/>,
-            },
-
-            {
-                path: "/servicos",
-                element: <Services/>,
-            },
-
-            {
-                path: "/portfolio",
-                element: <Portfolio/>,
-            }
-        ]
-    }
-])
-
-ReactDOM.render(
-    <React.StrictMode>
-        <RouterProvider router={router}>
-            <App />
-        </RouterProvider>
-    </React.StrictMode>,
-    document.getElementById('root') 
-);
-
-
-reportWebVitals();
+export default App;
