@@ -46,7 +46,8 @@ header {
 .navbar {
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
+   justify-content: flex-start;
+   gap: 2rem;
    height: 50em;
    padding: 1.2% 14% 5% 14%;
    position: fixed;
@@ -155,6 +156,7 @@ header {
    display: flex;
    flex-direction: column;
    justify-content: center;
+   padding-top: 1.5%;
    margin: 1%;
    z-index: 2;
 }
@@ -181,6 +183,7 @@ header {
 
 .social-description span {
    color: #fff;
+   padding-bottom: 1%;
 }
 
 .header-menu {
@@ -209,7 +212,7 @@ header {
 .active {
    color: #D3051E;
    font-weight: 600;
-   text-shadow: 1px 1px 1px #0000004b;
+   text-shadow: 3px 3px 10px #000000d5;
 }
 
 .non-active {
@@ -1101,6 +1104,18 @@ button:active .button-text {
 
 .formu::before {
    display: block;
+}
+
+.checkbox-input{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 0.5rem;
+}
+
+.checkbox-input input{
+   cursor: pointer;
+   width: 1rem;
 }
 
 footer {

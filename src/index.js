@@ -8,6 +8,7 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Services from './components/pages/Services'; 
 import Portfolio from './components/pages/Portfolio';
+import Privacy from './components/pages/privacy';
 
 import './style.css';
 import './responsive.css';
@@ -35,6 +36,11 @@ const router = createBrowserRouter([
             {
                 path: "/portfolio",
                 element: <Portfolio/>,
+            },
+
+            {
+                path: "/privacidade",
+                element: <Privacy/>,
             }
         ]
     }

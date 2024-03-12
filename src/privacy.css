@@ -1,0 +1,38 @@
+.privacy-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10% 10% 10% 10%;
+}
+
+.privacy-container h1 {
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.privacy-container p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #e1e1e1;
+}
+
+.navlink {
+    text-decoration: none;
+    color: #055af9;
+}
+
+.navlink:hover{
+    text-decoration: underline;
+}
+
+.privacy-container ul {
+    color: #fff;
+}
+
+.privacy-container span{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #fff;
+}
