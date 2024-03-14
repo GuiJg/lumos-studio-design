@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../../portfolio.css";
 import ContactSection from "../layouts/ContactSection";
+import { NavLink } from "react-router-dom";
 
 function Portfolio() {
     const [filter, setFilter] = useState(null);
@@ -10,7 +11,7 @@ function Portfolio() {
     useEffect(() => {
         const timer = setTimeout(() => {
             const projects = [
-                { type: "website", image: "project 1.png", title: "Projeto 1", description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac risus sed ligula fermentum bibendum" },
+                { type: "website", image: "/projects/agil/LUMOS PROJETOS AGIL CAPA 1.png", title: "Projeto 1", description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac risus sed ligula fermentum bibendum" },
                 { type: "website", image: "project 2.png", title: "Projeto 2", description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac risus sed ligula fermentum bibendum" },
                 { type: "website", image: "project 3.png", title: "Projeto 3", description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac risus sed ligula fermentum bibendum" },
                 { type: "identidade-visual", image: "project 4.png", title: "Projeto 4", description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac risus sed ligula fermentum bibendum" },
@@ -54,7 +55,7 @@ function Portfolio() {
                     <button className="filter-btn" onClick={() => handleFilter("identidade-visual")}>Identidade Visual</button>
                     <button className="filter-btn" onClick={() => handleFilter("social-media")}>Social Media</button>
                 </div>
-                <div className="projects">
+                <NavLink to={"/portfolio/agil-gestao-contabil"} className="projects">
                     {visibleProjects.map((project, index) => (
                         <div key={index} className={`item-project ${project.type} ${animateProjects ? 'fade-slide-in' : ''}`}>
                             <div className="image-project">
@@ -69,7 +70,7 @@ function Portfolio() {
                             </div>
                         </div>
                     ))}
-                </div>
+                </NavLink>
             </div>
             <div className="phrase-project">
                 <h2>
