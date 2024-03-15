@@ -10,7 +10,7 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Services from './components/pages/Services';
 import Portfolio from './components/pages/Portfolio';
-import Privacy from './components/pages/Privacy';
+import Privacy from './components/pages/privacy';
 
 //projects
 import Agil from './components/pages/projects/Agil';
