@@ -1,3 +1,4 @@
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 import '../../privacy.css'
 
@@ -16,7 +17,7 @@ function Privacy() {
             </p>
             <br />
             <p>
-                Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis ​​para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.
+                Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.
             </p>
             <br />
             <p>
@@ -45,13 +46,13 @@ function Privacy() {
             <br />
             <ul>
                 <li>
-                    A) Não se envolver em atividades que sejam ilegais ou contrárias à boa fé a à ordem pública;
+                    A- Não se envolver em atividades que sejam ilegais ou contrárias à boa fé a à ordem pública;
                 </li>
                 <li>
-                    B) Não difundir propaganda ou conteúdo de natureza racista, xenofóbica, 166bet ou azar, qualquer tipo de pornografia ilegal, de apologia ao terrorismo ou contra os direitos humanos;
+                    B- Não difundir propaganda ou conteúdo de natureza racista, xenofóbica, 166bet ou azar, qualquer tipo de pornografia ilegal, de apologia ao terrorismo ou contra os direitos humanos;
                 </li>
                 <li>
-                    C) Não causar danos aos sistemas físicos (hardwares) e lógicos (softwares) do Lumos Studio Design, de seus fornecedores ou terceiros, para introduzir ou disseminar vírus informáticos ou quaisquer outros sistemas de hardware ou software que sejam capazes de causar danos anteriormente mencionados.
+                    C- Não causar danos aos sistemas físicos (hardwares) e lógicos (softwares) do Lumos Studio Design, de seus fornecedores ou terceiros, para introduzir ou disseminar vírus informáticos ou quaisquer outros sistemas de hardware ou software que sejam capazes de causar danos anteriormente mencionados.
                 </li>
             </ul>
             <br />
