@@ -200,6 +200,11 @@ header {
    transition: 0.5s;
 }
 
+.header-link ::selection {
+   color: #d3051e;
+   background-color: #fff;
+}
+
 .header-link:hover {
    color: #ffffffad;
 }
@@ -313,7 +318,7 @@ header {
    height: 45rem;
 }
 
-#reverse-banner{
+#reverse-banner {
    display: none;
 }
 
@@ -430,7 +435,7 @@ header {
 }
 
 .text-banner a p {
-   cursor: pointer; 
+   cursor: pointer;
    text-align: end;
 }
 
@@ -505,11 +510,21 @@ header {
    color: #D72339;
 }
 
+.title-about p::selection {
+   color: #fff;
+   background-color: #D3051E;
+}
+
 .title-about h2 {
    font-family: 'Sulphur Point', sans-serif;
    font-size: 4rem;
    font-weight: 500;
    color: #fff;
+}
+
+.title-about h2::selection {
+   color: #D3051E;
+   background-color: #fff;
 }
 
 .text-description {
@@ -525,9 +540,30 @@ header {
    color: #fff;
 }
 
+.text-description p::selection {
+   color: #d3051e;
+   background-color: #fff;
+}
+
 .text-description span {
    font-size: 1.7rem;
    color: #D72339;
+}
+
+.text-description span::selection {
+   color: #fff;
+   background-color: #d3051e;
+}
+
+.learn-more a {
+   font-size: 1rem;
+   font-weight: 300;
+   color: #fff;
+}
+
+.learn-more a::selection {
+   color: #d3051e;
+   background-color: #fff;
 }
 
 button.learn-more {
@@ -687,6 +723,7 @@ button:active .button-text {
    padding-bottom: 7%;
    border-bottom: 1px solid #D3051E;
    gap: 2.5rem;
+   z-index: 2;
 }
 
 .title-services h2 {
@@ -694,6 +731,12 @@ button:active .button-text {
    font-size: 4rem;
    font-weight: 400;
    color: #ffffff75;
+}
+
+.title-services h2::selection,
+.title-services strong::selection {
+   color: #d3051e;
+   background-color: #fff;
 }
 
 .title-services strong {
@@ -714,6 +757,11 @@ button:active .button-text {
    color: #fff;
 }
 
+.text-title-services p::selection {
+   color: #d3051e;
+   background-color: #fff;
+}
+
 .services-container {
    display: flex;
    flex-direction: column;
@@ -731,6 +779,11 @@ button:active .button-text {
    text-align: center;
    color: #fff;
    margin-bottom: 5%;
+}
+
+.services-container h2::selection {
+   color: #d3051e;
+   background-color: #fff;
 }
 
 .services-home {
@@ -754,6 +807,11 @@ button:active .button-text {
    color: #fff;
 }
 
+.services-item span::selection {
+   color: #d3051e;
+   background-color: #fff;
+}
+
 .title-border {
    display: flex;
    flex-direction: column;
@@ -769,6 +827,11 @@ button:active .button-text {
 
 .services-item p {
    color: #ffffff87;
+}
+
+.services-item p::selection {
+   color: #d3051e;
+   background-color: #fff;
 }
 
 .button-services {
@@ -800,6 +863,11 @@ button:active .button-text {
    cursor: pointer;
 }
 
+.button-services p::selection {
+   color: #d3051e;
+   background-color: #fff;
+}
+
 .project-page {
    display: flex;
    flex-direction: column;
@@ -822,6 +890,11 @@ button:active .button-text {
    font-size: 4.5rem;
    font-weight: 400;
    color: #fff;
+}
+
+.project-page h2::selection {
+   color: #d3051e;
+   background-color: #fff;
 }
 
 .container-project {
@@ -950,6 +1023,11 @@ button:active .button-text {
    color: #fff;
 }
 
+.button-project p::selection {
+   color: #d3051e;
+   background-color: #fff;
+}
+
 .button-project:hover {
    background-color: #D3051E;
 }
@@ -972,12 +1050,23 @@ button:active .button-text {
    color: #fff;
 }
 
+.phrase-brand p::selection {
+   color: #d3051e;
+   background-color: #fff;
+}
+
 .phrase-brand h2 {
    text-align: end;
    font-family: 'Sulphur Point', sans-serif;
    font-size: 3.5rem;
    font-weight: 300;
    color: #fff;
+}
+
+.phrase-brand h2::selection,
+.phrase-brand strong::selection {
+   color: #d3051e;
+   background-color: #fff;
 }
 
 .phrase-brand strong {
@@ -1011,6 +1100,11 @@ button:active .button-text {
    color: #fff;
 }
 
+.title-contact h2::selection {
+   color: #d3051e;
+   background-color: #fff;
+}
+
 .div-middle {
    background-color: #D72339;
    width: 100%;
@@ -1031,6 +1125,11 @@ button:active .button-text {
    text-align: start;
    width: 100%;
    color: #fff;
+}
+
+.form label::selection {
+   color: #d3051e;
+   background-color: #fff;
 }
 
 .form input,
@@ -1088,6 +1187,11 @@ button:active .button-text {
    transition: 0.5s;
 }
 
+.form button::selection {
+   color: #d3051e;
+   background-color: #fff;
+}
+
 .form button:hover {
    background-color: #D3051E;
    border-color: transparent;
@@ -1106,14 +1210,14 @@ button:active .button-text {
    display: block;
 }
 
-.checkbox-input{
+.checkbox-input {
    display: flex;
    justify-content: flex-start;
    align-items: center;
    gap: 0.5rem;
 }
 
-.checkbox-input input{
+.checkbox-input input {
    cursor: pointer;
    width: 1rem;
 }
@@ -1139,6 +1243,12 @@ footer {
 .logo-info img {
    width: 40%;
    height: auto;
+}
+
+.logo-info span::selection,
+.logo-info p::selection {
+   color: #d3051e;
+   background-color: #fff;
 }
 
 .logo-info span {
@@ -1167,6 +1277,11 @@ footer {
    color: #ffffffc3;
 }
 
+.info p::selection {
+   color: #d3051e;
+   background-color: #fff;
+}
+
 .links-container {
    display: flex;
    justify-content: center;
@@ -1188,6 +1303,16 @@ footer {
    font-weight: 500;
    color: #fff;
    margin-bottom: 2%;
+}
+
+.item-link a::selection {
+   color: #d3051e;
+   background-color: #fff;
+}
+
+.item-link span::selection {
+   color: #d3051e;
+   background-color: #fff;
 }
 
 .link-pages {
