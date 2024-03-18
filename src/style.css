@@ -205,13 +205,13 @@ header {
 }
 
 .header-link:active {
-   color: #D3051E;
+   color: #ff0220;
    font-weight: 600;
 }
 
 .active {
-   color: #D3051E;
-   font-weight: 600;
+   color: #ff0220;
+   font-weight: 800;
    text-shadow: 3px 3px 10px #000000d5;
 }
 

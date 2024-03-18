@@ -37,6 +37,8 @@
 }
 
 .content-image img{
+    border: 1px solid #ffffff30;
+    box-shadow: 2px 2px 5px 0px #0000004b;
     width: 100%;
     height: auto;
 }
