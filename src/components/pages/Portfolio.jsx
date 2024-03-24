@@ -11,18 +11,48 @@ function Portfolio() {
     useEffect(() => {
         const timer = setTimeout(() => {
             const projects = [
-                { type: "website", image: "/projects/agil/LUMOS PROJETOS AGIL CAPA 1.png", title: "Projeto 1", description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac risus sed ligula fermentum bibendum" },
-                { type: "website", image: "project 2.png", title: "Projeto 2", description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac risus sed ligula fermentum bibendum" },
-                { type: "website", image: "project 3.png", title: "Projeto 3", description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac risus sed ligula fermentum bibendum" },
-                { type: "identidade-visual", image: "project 4.png", title: "Projeto 4", description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac risus sed ligula fermentum bibendum" },
-                { type: "identidade-visual", image: "project 5.png", title: "Projeto 5", description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac risus sed ligula fermentum bibendum" },
-                { type: "social-media", image: "project 6.png", title: "Projeto 6", description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac risus sed ligula fermentum bibendum" }
+                { 
+                    link: "/portfolio/agil-gestao-contabil", 
+                    type: "website", 
+                    image: "/projects/agil/LUMOS PROJETOS AGIL CAPA 1.png", 
+                    title: "Agil Gestão Contabil", 
+                    description: "A Ágil Contabilidade é um escritorio de contabilidade que se destaca por oferecer um atendimento personalizado e cuidado, com o objetivo de proporcionar a melhor gestão contábil para seus clientes." },
+                { 
+                    link: "/portfolio/vandelson-junior-advogados", 
+                    type: "website", 
+                    image: "/projects/VandelsonAdv/LUMOS PROJETOS CAPA ADVOCACIA.png", 
+                    title: "Vandelson Junior Advocacia", 
+                    description: "O Escritório Vandelson Júnior é uma firma de advocacia comprometida com a excelência." },
+                { 
+                    link: "/portfolio/coffee-cube", 
+                    type: "website", 
+                    image: "/projects/CoffeeCube/CAPA COFFEE CUBE.png", 
+                    title: "Coffee Cube", 
+                    description: "A Coffee Cube é uma cafeteria especializada em expressos e brunchs." },
+                { 
+                    link: "/portfolio/", 
+                    type: "identidade-visual", 
+                    image: "project 4.png", 
+                    title: "Projeto 4", 
+                    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac risus sed ligula fermentum bibendum" },
+                { 
+                    link: "/portfolio/", 
+                    type: "identidade-visual", 
+                    image: "project 5.png", 
+                    title: "Projeto 5", 
+                    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac risus sed ligula fermentum bibendum" },
+                { 
+                    link: "/portfolio/", 
+                    type: "social-media", 
+                    image: "project 6.png", 
+                    title: "Projeto 6", 
+                    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac risus sed ligula fermentum bibendum" }
             ];
 
             setVisibleProjects(
                 projects.filter(project => !filter || project.type === filter)
             );
-            setAnimateProjects(true); // Ativar a animação após atualizar os projetos visíveis
+            setAnimateProjects(true);
         });
 
         return () => clearTimeout(timer);
@@ -31,15 +61,15 @@ function Portfolio() {
     useEffect(() => {
         if (animateProjects) {
             setTimeout(() => {
-                setAnimateProjects(false); // Desativar a animação após um intervalo de tempo
-            }, 600); // Ajuste o valor conforme necessário para corresponder à duração da sua animação (em milissegundos)
+                setAnimateProjects(false);
+            }, 600);
         }
     }, [animateProjects]);
 
     const handleFilter = (type) => {
         setFilter(type);
     };
-    
+
     return (
         <section className="portfolio-container" id="home">
             <div className="portfolio-title">
@@ -55,9 +85,9 @@ function Portfolio() {
                     <button className="filter-btn" onClick={() => handleFilter("identidade-visual")}>Identidade Visual</button>
                     <button className="filter-btn" onClick={() => handleFilter("social-media")}>Social Media</button>
                 </div>
-                <NavLink to={"/portfolio/agil-gestao-contabil"} className="projects">
+                <div className="projects">
                     {visibleProjects.map((project, index) => (
-                        <div key={index} className={`item-project ${project.type} ${animateProjects ? 'fade-slide-in' : ''}`}>
+                        <NavLink to={project.link} key={index} className={`item-project ${project.type} ${animateProjects ? 'fade-slide-in' : 'item-project'}`}>
                             <div className="image-project">
                                 <img src={project.image} alt="" />
                             </div>
@@ -68,16 +98,16 @@ function Portfolio() {
                                 </div>
                                 <p>{project.description}</p>
                             </div>
-                        </div>
+                        </NavLink>
                     ))}
-                </NavLink>
+                </div>
             </div>
             <div className="phrase-project">
                 <h2>
                     Vamos criar um projeto incrível juntos?
                 </h2>
             </div>
-            <ContactSection/>
+            <ContactSection />
         </section>
     );
 }

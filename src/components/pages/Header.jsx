@@ -49,7 +49,7 @@ function Header() {
             </NavLink>
             <nav className="header-menu">
                 <NavLink to={"/portfolio"} className={({ isActive }) => isActive ? "header-link active" : "non-active header-link"}>PORTFÓLIO</NavLink>
-                <NavLink to={"https://lumostudio.com.br/#contato"} className={({ isActive }) => isActive ? "header-link active" : "non-active header-link"}>CONTATO</NavLink>
+                <NavLink to={"https://www.lumostudio.com.br/#contato"} className={({ isActive }) => isActive ? "header-link active" : "non-active header-link"}>CONTATO</NavLink>
             </nav>
             <div className="hamburger-container" onClick={openNavBar}>
                 <label className="hamburger">
