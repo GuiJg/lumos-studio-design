@@ -16,7 +16,7 @@ function Agil(){
             </div>
             <div className="content-image">
                 <img src="../projects/agil/MOCKUP AGIL.png" alt="" />
-                <img src="../projects/agil/LUMOS PROJETOS AGIL TELAS.png" alt="" />
+                <img src="../projects/VandelsonAdv/LUMOS PROJETOS TELAS ADV.png" alt="" />
                 <img src="../projects/agil/LUMOS PROJETOS AGIL PALETA DE CORES.png" alt="" />
                 <img src="../projects/agil/HOME PAGE CONTADOR.png" alt="" />
             </div>
