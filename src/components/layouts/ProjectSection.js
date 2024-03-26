@@ -10,52 +10,49 @@ function ProjectSection() {
             <div className="container-project">
                 <NavLink to={'/portfolio'} className="item-project">
                     <div className="image-project">
-                        <img src="project 1.png" alt="" />
+                        <img src="/projects/agil/LUMOS PROJETOS AGIL CAPA 1.png" alt="" />
                     </div>
                     <div className="title-project">
                         <div className="title-div">
-                            <h2>Projeto 1</h2>
+                            <h2>Ágil Gestão Contabil</h2>
                             <div className="div"></div>
                         </div>
                         <p>
-                            lorem ipsum dolor sit amet, consectetur adipiscing <br />
-                            elit. Sed ac risus sed ligula fermentum bibendum
+                            A Ágil Contabilidade é um escritorio de contabilidade que se destaca por oferecer um atendimento personalizado e cuidado, com o objetivo de proporcionar a melhor gestão contábil para seus clientes.
                         </p>
                     </div>
                 </NavLink>
                 <NavLink to={'/portfolio'} className="item-project">
                     <div className="image-project">
-                        <img src="project 2.png" alt="" />
+                        <img src="/projects/VandelsonAdv/LUMOS PROJETOS CAPA ADVOCACIA.png" alt="" />
                     </div>
                     <div className="title-project">
                         <div className="title-div">
-                            <h2>Projeto 2</h2>
+                            <h2>Vandelson Junior Advocacia</h2>
                             <div className="div"></div>
                         </div>
                         <p>
-                            lorem ipsum dolor sit amet, consectetur adipiscing <br />
-                            elit. Sed ac risus sed ligula fermentum bibendum
+                            O Escritório Vandelson Júnior é uma firma de advocacia comprometida com a excelência.
                         </p>
                     </div>
                 </NavLink>
                 <NavLink to={'/portfolio'} className="item-project">
                     <div className="image-project">
-                        <img src="project 3.png" alt="" />
+                        <img src="/projects/CoffeeCube/CAPA COFFEE CUBE.png" alt="" />
                     </div>
                     <div className="title-project">
                         <div className="title-div">
-                            <h2>Projeto 3</h2>
+                            <h2>Coffee Cube</h2>
                             <div className="div"></div>
                         </div>
                         <p>
-                            lorem ipsum dolor sit amet, consectetur adipiscing <br />
-                            elit. Sed ac risus sed ligula fermentum bibendum
+                            A Coffee Cube é uma cafeteria especializada em expressos e brunchs.
                         </p>
                     </div>
                 </NavLink>
                 <NavLink to={'/portfolio'} className="item-project">
                     <div className="image-project">
-                        <img src="project 4.png" alt="" />
+                        <img src="/projects/Social Media/Sushi Social/CAPA SOCIAL MEDIA SUSHI.png" alt="" />
                     </div>
                     <div className="title-project">
                         <div className="title-div">
@@ -63,38 +60,35 @@ function ProjectSection() {
                             <div className="div"></div>
                         </div>
                         <p>
-                            lorem ipsum dolor sit amet, consectetur adipiscing <br />
-                            elit. Sed ac risus sed ligula fermentum bibendum
+                            Neste projeto, elaboramos toda a estrutura do perfil do cliente, desenvolvendo sua identidade visual e definindo a mensagem transmitida pelas postagens.
                         </p>
                     </div>
                 </NavLink>
                 <NavLink to={'/portfolio'} className="item-project">
                     <div className="image-project">
-                        <img src="project 5.png" alt="" />
+                        <img src="/projects/Social Media/Coffee Social/CAPA SOCIAL MEDIA COFFEE.png" alt="" />
                     </div>
                     <div className="title-project">
                         <div className="title-div">
-                            <h2>Projeto 5</h2>
+                            <h2>Cafeteria Social Media</h2>
                             <div className="div"></div>
                         </div>
                         <p>
-                            lorem ipsum dolor sit amet, consectetur adipiscing <br />
-                            elit. Sed ac risus sed ligula fermentum bibendum
+                            Neste projeto, buscamos representar os produtos e serviços da Cafeteria de forma vibrante e atrativa.
                         </p>
                     </div>
                 </NavLink>
                 <NavLink to={'/portfolio'} className="item-project">
                     <div className="image-project">
-                        <img src="project 6.png" alt="" />
+                        <img src="/projects/Social Media/Advocacia Social/CAPA SOCIAL MEDIA ADV.png" alt="" />
                     </div>
                     <div className="title-project">
                         <div className="title-div">
-                            <h2>Projeto 6</h2>
+                            <h2>Advocacia Social Media</h2>
                             <div className="div"></div>
                         </div>
                         <p>
-                            lorem ipsum dolor sit amet, consectetur adipiscing <br />
-                            elit. Sed ac risus sed ligula fermentum bibendum
+                            Nossa equipe criou postagens chamativas e elegantemente elaboradas para o Instagram de um renomado escritório de advocacia.
                         </p>
                     </div>
                 </NavLink>

@@ -11,42 +11,48 @@ function Portfolio() {
     useEffect(() => {
         const timer = setTimeout(() => {
             const projects = [
-                { 
-                    link: "/portfolio/agil-gestao-contabil", 
-                    type: "website", 
-                    image: "/projects/agil/LUMOS PROJETOS AGIL CAPA 1.png", 
-                    title: "Agil Gestão Contabil", 
-                    description: "A Ágil Contabilidade é um escritorio de contabilidade que se destaca por oferecer um atendimento personalizado e cuidado, com o objetivo de proporcionar a melhor gestão contábil para seus clientes." },
-                { 
-                    link: "/portfolio/vandelson-junior-advogados", 
-                    type: "website", 
-                    image: "/projects/VandelsonAdv/LUMOS PROJETOS CAPA ADVOCACIA.png", 
-                    title: "Vandelson Junior Advocacia", 
-                    description: "O Escritório Vandelson Júnior é uma firma de advocacia comprometida com a excelência." },
-                { 
-                    link: "/portfolio/coffee-cube", 
-                    type: "website", 
-                    image: "/projects/CoffeeCube/CAPA COFFEE CUBE.png", 
-                    title: "Coffee Cube", 
-                    description: "A Coffee Cube é uma cafeteria especializada em expressos e brunchs." },
-                { 
-                    link: "/portfolio/", 
-                    type: "identidade-visual", 
-                    image: "project 4.png", 
-                    title: "Projeto 4", 
-                    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac risus sed ligula fermentum bibendum" },
-                { 
-                    link: "/portfolio/", 
-                    type: "identidade-visual", 
-                    image: "project 5.png", 
-                    title: "Projeto 5", 
-                    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac risus sed ligula fermentum bibendum" },
-                { 
-                    link: "/portfolio/", 
-                    type: "social-media", 
-                    image: "project 6.png", 
-                    title: "Projeto 6", 
-                    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac risus sed ligula fermentum bibendum" }
+                {
+                    link: "/portfolio/agil-gestao-contabil",
+                    type: "website",
+                    image: "/projects/agil/LUMOS PROJETOS AGIL CAPA 1.png",
+                    title: "Agil Gestão Contabil",
+                    description: "A Ágil Contabilidade é um escritorio de contabilidade que se destaca por oferecer um atendimento personalizado e cuidado, com o objetivo de proporcionar a melhor gestão contábil para seus clientes."
+                },
+                {
+                    link: "/portfolio/vandelson-junior-advogados",
+                    type: "website",
+                    image: "/projects/VandelsonAdv/LUMOS PROJETOS CAPA ADVOCACIA.png",
+                    title: "Vandelson Junior Advocacia",
+                    description: "O Escritório Vandelson Júnior é uma firma de advocacia comprometida com a excelência."
+                },
+                {
+                    link: "/portfolio/coffee-cube",
+                    type: "website",
+                    image: "/projects/CoffeeCube/CAPA COFFEE CUBE.png",
+                    title: "Coffee Cube",
+                    description: "A Coffee Cube é uma cafeteria especializada em expressos e brunchs."
+                },
+                {
+                    link: "/portfolio/sushi-social-media",
+                    type: "social-media",
+                    image: "/projects/Social Media/Sushi Social/CAPA SOCIAL MEDIA SUSHI.png",
+                    title: "Sushi Social Media",
+                    description: "Neste projeto, elaboramos toda a estrutura do perfil do cliente, desenvolvendo sua identidade visual e definindo a mensagem transmitida pelas postagens."
+                },
+                {
+                    link: "/portfolio/cafe-social-media",
+                    type: "social-media",
+                    image: "/projects/Social Media/Coffee Social/CAPA SOCIAL MEDIA COFFEE.png",
+                    title: "Café Social Media",
+                    description: "Neste projeto, buscamos representar os produtos e serviços da Cafeteria de forma vibrante e atrativa"
+                },
+                {
+                    link: "/portfolio/advocacia-social-media",
+                    type: "social-media",
+                    image: "/projects/Social Media/Advocacia Social/CAPA SOCIAL MEDIA ADV.png",
+                    title: "Advocacia Social Media",
+                    description: "Nossa equipe criou postagens chamativas e elegantemente elaboradas para o Instagram de um renomado escritório de advocacia."
+                }
             ];
 
             setVisibleProjects(

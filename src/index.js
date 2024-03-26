@@ -13,9 +13,14 @@ import Portfolio from './components/pages/Portfolio';
 import Privacy from './components/pages/privacy';
 
 //projects
-import Agil from './components/pages/projects/Agil';
-import Coffee from './components/pages/projects/Coffee';
-import Vandelson from './components/pages/projects/Vandelson';
+    //website
+        import Agil from './components/pages/projects/Agil';
+        import Coffee from './components/pages/projects/Coffee';
+        import Vandelson from './components/pages/projects/Vandelson';
+    //social media
+        import SushiSocial from './components/pages/projects/social media/SushiSocial';
+        import CoffeeSocial from './components/pages/projects/social media/CoffeeSocial';
+        import AdvocaciaSocial from './components/pages/projects/social media/AdvocaciaSocial';
 
 //styles
 import './style.css';
@@ -64,6 +69,21 @@ const router = createBrowserRouter([
             {
                 path: "/portfolio/vandelson-junior-advogados",
                 element: <Vandelson/>,
+            },
+            
+            {
+                path: "/portfolio/sushi-social-media",
+                element: <SushiSocial/>,
+            },
+
+            {
+                path: "/portfolio/cafe-social-media",
+                element: <CoffeeSocial/>,
+            },
+
+            {
+                path: "/portfolio/advocacia-social-media",
+                element: <AdvocaciaSocial/>,
             },
         ]
     }
