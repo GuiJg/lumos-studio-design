@@ -56,7 +56,7 @@ function ProjectSection() {
                     </div>
                     <div className="title-project">
                         <div className="title-div">
-                            <h2>Projeto 4</h2>
+                            <h2>Sushi Social Media</h2>
                             <div className="div"></div>
                         </div>
                         <p>

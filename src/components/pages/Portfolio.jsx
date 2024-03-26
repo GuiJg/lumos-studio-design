@@ -16,7 +16,7 @@ function Portfolio() {
                     type: "website",
                     image: "/projects/agil/LUMOS PROJETOS AGIL CAPA 1.png",
                     title: "Agil Gestão Contabil",
-                    description: "A Ágil Contabilidade é um escritorio de contabilidade que se destaca por oferecer um atendimento personalizado e cuidado, com o objetivo de proporcionar a melhor gestão contábil para seus clientes."
+                    description: "A Ágil é um escritorio contabil que se destaca por oferecer um atendimento personalizado e cuidado, com o objetivo de proporcionar a melhor gestão contábil para seus clientes."
                 },
                 {
                     link: "/portfolio/vandelson-junior-advogados",
@@ -97,7 +97,7 @@ function Portfolio() {
                             <div className="image-project">
                                 <img src={project.image} alt="" />
                             </div>
-                            <div className="title-project" id="portfolio">
+                            <div className="title-project">
                                 <div className="title-div">
                                     <h2>{project.title}</h2>
                                     <div className="div"></div>

@@ -982,11 +982,12 @@ button:active .button-text {
    align-items: flex-start;
    text-align: start;
    gap: 1rem;
+   width: 30rem !important;
    opacity: 0;
    position: absolute;
    background: linear-gradient(to top, transparent 0%, transparent 100%);
    pointer-events: none;
-   transform: translate(0rem, 7rem);
+   transform: translate(-1.5rem, 5rem);
    transition: all 0.3s;
 }
 
