@@ -14,9 +14,9 @@ import Privacy from './components/pages/privacy';
 
 //projects
     //website
-        import Agil from './components/pages/projects/Agil';
-        import Coffee from './components/pages/projects/Coffee';
-        import Vandelson from './components/pages/projects/Vandelson';
+        import Agil from './components/pages/projects/websites/Agil';
+        import Coffee from './components/pages/projects/websites/Coffee';
+        import Vandelson from './components/pages/projects/websites/Vandelson';
     //social media
         import SushiSocial from './components/pages/projects/social media/SushiSocial';
         import CoffeeSocial from './components/pages/projects/social media/CoffeeSocial';

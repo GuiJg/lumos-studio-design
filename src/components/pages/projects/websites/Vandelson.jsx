@@ -1,7 +1,7 @@
 import React from "react";
-import '../../../project.css'
+import '../../../../project.css'
 import { NavLink } from "react-router-dom";
-import ContactSection from "../../layouts/ContactSection";
+import ContactSection from "../../../layouts/ContactSection";
 
 function Vandelson() {
 

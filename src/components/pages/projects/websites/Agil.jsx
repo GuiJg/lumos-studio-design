@@ -1,7 +1,7 @@
 import React from "react";
-import '../../../project.css'
+import '../../../../project.css'
 import { NavLink } from "react-router-dom";
-import ContactSection from "../../layouts/ContactSection";
+import ContactSection from "../../../layouts/ContactSection";
 
 function Agil() {
 
@@ -11,8 +11,8 @@ function Agil() {
                 <h1>Ágil Gestão Contábil</h1>
                 <br />
                 <p>
-                    A Ágil Contabilidade se destaca por oferecer um atendimento personalizado e cuidado, com o objetivo de proporcionar a melhor gestão contábil para seus clientes.
-                    No âmbito deste projeto, nossa missão foi desenvolver toda a experiência, transmitindo de forma
+                    A Ágil Contabilidade se destaca por oferecer um atendimento personalizado e cuidado, com o objetivo de proporcionar a melhor gestão contábil para seus clientes. <br />
+                    No âmbito deste projeto, nossa missão foi desenvolver toda a experiência, transmitindo de forma eficaz a comunicação dos valores, visão e serviços que a Ágil Contabilidade proporciona. <br />
                     Nosso compromisso é garantir que cada cliente se sinta valorizado e compreendido, recebendo sempre um serviço de qualidade e confiança.
                 </p>
             </div>
