@@ -17,12 +17,20 @@ strong {
    cursor: context-menu;
 }
 
+::-webkit-scrollbar{
+   width: 15px;
+}
+
 ::-webkit-scrollbar-thumb {
    background-color: #D3051E;
 }
 
 ::-webkit-scrollbar-track {
-   background-color: #D3051E;
+   background-color: transparent;
+}
+
+::-webkit-scrollbar-button{
+   display: none;
 }
 
 body {

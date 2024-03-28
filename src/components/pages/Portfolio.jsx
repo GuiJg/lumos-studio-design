@@ -95,7 +95,7 @@ function Portfolio() {
                     {visibleProjects.map((project, index) => (
                         <NavLink to={project.link} key={index} className={`item-project ${project.type} ${animateProjects ? 'fade-slide-in' : 'item-project'}`}>
                             <div className="image-project">
-                                <img src={project.image} alt="" />
+                                <img src={project.image} alt="Projeto do portfolio da Lumos Studio" />
                             </div>
                             <div className="title-project">
                                 <div className="title-div">

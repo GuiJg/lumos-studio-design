@@ -10,7 +10,7 @@ function ProjectSection() {
             <div className="container-project">
                 <NavLink to={'/portfolio'} className="item-project">
                     <div className="image-project">
-                        <img src="/projects/agil/LUMOS PROJETOS AGIL CAPA 1.png" alt="" />
+                        <img src="/projects/agil/LUMOS PROJETOS AGIL CAPA 1.png" alt="Representação gráfica de um notebook com um site demonstrando" />
                     </div>
                     <div className="title-project">
                         <div className="title-div">
@@ -24,7 +24,7 @@ function ProjectSection() {
                 </NavLink>
                 <NavLink to={'/portfolio'} className="item-project">
                     <div className="image-project">
-                        <img src="/projects/VandelsonAdv/LUMOS PROJETOS CAPA ADVOCACIA.png" alt="" />
+                        <img src="/projects/VandelsonAdv/LUMOS PROJETOS CAPA ADVOCACIA.png" alt="Representação gráfica de um notebook com um site demonstrando" />
                     </div>
                     <div className="title-project">
                         <div className="title-div">
@@ -38,7 +38,7 @@ function ProjectSection() {
                 </NavLink>
                 <NavLink to={'/portfolio'} className="item-project">
                     <div className="image-project">
-                        <img src="/projects/CoffeeCube/CAPA COFFEE CUBE.png" alt="" />
+                        <img src="/projects/CoffeeCube/CAPA COFFEE CUBE.png" alt="Representação gráfica de um notebook com um site demonstrando" />
                     </div>
                     <div className="title-project">
                         <div className="title-div">
@@ -52,7 +52,7 @@ function ProjectSection() {
                 </NavLink>
                 <NavLink to={'/portfolio'} className="item-project">
                     <div className="image-project">
-                        <img src="/projects/Social Media/Sushi Social/CAPA SOCIAL MEDIA SUSHI.png" alt="" />
+                        <img src="/projects/Social Media/Sushi Social/CAPA SOCIAL MEDIA SUSHI.png" alt="Representação gráfica de um post no instagram com artes relacioado a sushi" />
                     </div>
                     <div className="title-project">
                         <div className="title-div">
@@ -66,7 +66,7 @@ function ProjectSection() {
                 </NavLink>
                 <NavLink to={'/portfolio'} className="item-project">
                     <div className="image-project">
-                        <img src="/projects/Social Media/Coffee Social/CAPA SOCIAL MEDIA COFFEE.png" alt="" />
+                        <img src="/projects/Social Media/Coffee Social/CAPA SOCIAL MEDIA COFFEE.png" alt="Representação gráfica de um post no instagram com artes relacioado a café" />
                     </div>
                     <div className="title-project">
                         <div className="title-div">
@@ -80,7 +80,7 @@ function ProjectSection() {
                 </NavLink>
                 <NavLink to={'/portfolio'} className="item-project">
                     <div className="image-project">
-                        <img src="/projects/Social Media/Advocacia Social/CAPA SOCIAL MEDIA ADV.png" alt="" />
+                        <img src="/projects/Social Media/Advocacia Social/CAPA SOCIAL MEDIA ADV.png" alt="Representação gráfica de um post no instagram com artes relacioado a advocacia" />
                     </div>
                     <div className="title-project">
                         <div className="title-div">

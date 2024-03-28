@@ -11,7 +11,7 @@ function Coffee() {
                 <h1>Coffee Cube</h1>
                 <br />
                 <p>
-                    A Coffee Cube é uma cafeteria especializada em expressos e brunchs.
+                    A Coffee Cube é uma cafeteria especializada em expressos e brunchs. <br /> <br />
                     Com mais de 5 anos de experiência, a Coffee Cube buscou uma landing page que refletisse sua abordagem moderna. <br />
                     Nosso projeto teve como objetivo criar uma nova identidade visual que destacasse a empresa em seu ramo e exaltasse a alta qualidade de tudo o que a Coffee Cube oferece aos seus clientes.
                 </p>

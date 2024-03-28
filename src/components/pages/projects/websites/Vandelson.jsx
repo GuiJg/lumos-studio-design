@@ -11,7 +11,7 @@ function Vandelson() {
                 <h1>Vandelson Junior Advogados & Associados</h1>
                 <br />
                 <p>
-                    O Escritório Vandelson Júnior é uma firma de advocacia comprometida com a excelência. <br />
+                    O Escritório Vandelson Júnior é uma firma de advocacia comprometida com a excelência. <br /> <br />
                     Em suas atividades, busca soluções justas e eficazes, acumulando mais de 500 casos de sucesso, gerando conforto e satisfação aos clientes diante dos desafios legais. Por meio de nosso processo de pesquisa, criamos uma base sólida para elaborar uma identidade visual única para o site.
                 </p>
             </div>

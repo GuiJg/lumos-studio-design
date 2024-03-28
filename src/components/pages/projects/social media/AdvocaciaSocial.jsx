@@ -18,7 +18,6 @@ function AdvocaciaSocial() {
                 </p>
             </div>
             <div className="content-image">
-                <img src="../projects/Social Media/Advocacia Social/SOCIAL MEDIA ADV.png" alt="" />
                 <img src="../projects/Social Media/Advocacia Social/SOCIAL MEDIA ADV 2.png" alt="" />
                 <img src="../projects/Social Media/Advocacia Social/SOCIAL MEDIA ADV 3.png" alt="" />
                 <img src="../projects/Social Media/Advocacia Social/SOCIAL MEDIA ADV MOCKUP.png" alt="" />

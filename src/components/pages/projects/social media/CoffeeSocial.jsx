@@ -18,8 +18,7 @@ function CoffeeSocial() {
             <div className="content-image">
                 <img src="../projects/Social Media/Coffee Social/Social MEDIA MOCKUP.png" alt="" />
                 <img src="../projects/Social Media/Coffee Social/Social MEDIA MOCKUP 2.png" alt="" />
-                <img src="../projects/Social Media/Coffee Social/SOCIAL MEDIA COFFEE CUBE.png" alt="" />
-                <img src="../projects/Social Media/Coffee Social/SOCIAL MEDIA COFFEE CUBE 2.png" alt="" />
+                <img src="../projects/Social Media/Coffee Social/SOCIAL MEDIA ADV 4.png" alt="" />
                 <img src="../projects/Social Media/Coffee Social/SOCIAL MEDIA COFFEE4.png" alt="" />
             </div>
             <div className="buttons-container">

@@ -18,7 +18,7 @@ function SushiSocial() {
                 </p>
             </div>
             <div className="content-image">
-                <img src="../projects/Social Media/Sushi Social/SOCIAL MEDIA SUSHI 1.png" alt="" />
+                <img src="../projects/Social Media/Sushi Social/CAPA SOCIAL MEDIA SUSHI.png" alt="" />
                 <img src="../projects/Social Media/Sushi Social/SOCIAL MEDIA SUSHI 2.png" alt="" />
                 <img src="../projects/Social Media/Sushi Social/SOCIAL MEDIA SUSHI 3.png" alt="" />
             </div>
