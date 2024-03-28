@@ -17,29 +17,29 @@ function SplideSlider() {
                 pauseOnHover: true,
                 pauseOnFocus: true,
                 rewind: true,
-                speed: 2,
+                speed: 2, 
             }
         }}
             extensions={{ AutoScroll }}
 
         >
             <SplideSlide className="container-image">
-                <img src="./mockup-services.png" alt="mockup escuro" /> 
+                <img src="/projects/agil/LUMOS PROJETOS AGIL CAPA 1.png" alt="" /> 
             </SplideSlide>
             <SplideSlide className="container-image">
-                <img src="./mockup-services.png" alt="2" /> 
+                <img src="/projects/Social Media/Sushi Social/CAPA SOCIAL MEDIA SUSHI.png" alt="2" /> 
             </SplideSlide>
             <SplideSlide className="container-image">
-                <img src="./mockup-services.png" alt="2" />
+                <img src="/projects/CoffeeCube/CAPA COFFEE CUBE.png" alt="2" />
             </SplideSlide>
             <SplideSlide className="container-image">
-                <img src="./mockup-services.png" alt="2" />
+                <img src="/projects/Social Media/Coffee Social/CAPA SOCIAL MEDIA COFFEE.png" alt="2" />
             </SplideSlide>
             <SplideSlide className="container-image">
-                <img src="./mockup-services.png" alt="2" />
+                <img src="/projects/VandelsonAdv/LUMOS PROJETOS CAPA ADVOCACIA.png" alt="2" />
             </SplideSlide>
-            <SplideSlide className="container-image">
-                <img src="./mockup-services.png" alt="2" />
+            <SplideSlide className="container-image"> 
+                <img src="/projects/Social Media/Advocacia Social/CAPA SOCIAL MEDIA ADV.png" alt="2" />
             </SplideSlide>
         </Splide>
 

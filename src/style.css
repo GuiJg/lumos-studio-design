@@ -207,7 +207,7 @@ header {
    color: #fff;
 }
 
-.header-link ::selection {
+.header-link::selection {
    color: #d3051e;
    background-color: #fff;
 }
@@ -279,15 +279,6 @@ header {
 .line-top-bottom {
    stroke-dasharray: 12 63;
 }
-
-/* .hamburger input:checked+svg {
-   transform: rotate(-45deg);
-}
-
-.hamburger input:checked+svg .line-top-bottom {
-   stroke-dasharray: 20 300;
-   stroke-dashoffset: -32.42;
-} */
 
 #button-hamburger {
    transform: rotate(-45deg);
@@ -989,6 +980,16 @@ button:active .button-text {
    pointer-events: none;
    transform: translate(-1.5rem, 5rem);
    transition: all 0.3s;
+}
+
+.title-project h2::selection {
+   color: #d3051e;
+   background-color: #fff;
+}
+
+.title-project p::selection {
+   color: #d3051e;
+   background-color: #fff;
 }
 
 .item-project:hover .title-project {

@@ -20,9 +20,19 @@
     color: #ffffff4f;
 }
 
+.portfolio-title h2::selection {
+    color: #d3051e;
+    background-color: #fff;
+}
+
 .portfolio-title strong {
     font-weight: 400;
     color: #fff;
+}
+
+.portfolio-title strong::selection {
+    color: #d3051e;
+    background-color: #fff;
 }
 
 .project-container-filter {
@@ -55,6 +65,11 @@
     transition: 0.5s;
 }
 
+.filter-btn::selection {
+    color: #d3051e;
+    background-color: #fff;
+}
+
 .filter-btn:hover {
     background-color: #fff;
     color: #000;
@@ -77,6 +92,11 @@
     cursor: pointer;
 }
 
+.clear-filter-btn::selection {
+    color: #d3051e;
+    background-color: #fff;
+}
+
 .projects {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -86,7 +106,7 @@
     width: 85%;
 }
 
-#portfolio{
+#portfolio {
     width: 35rem;
 }
 
@@ -139,6 +159,11 @@
     font-size: 3rem;
     font-weight: 400;
     color: #fff;
+}
+
+.phrase-project h2::selection {
+    color: #d3051e;
+    background-color: #fff;
 }
 
 #contact-page {

@@ -28,6 +28,11 @@
     color: #fff;
 }
 
+.about-title p::selection {
+    color: #d3051e;
+    background-color: #fff;
+}
+
 .svg {
     width: 20%;
     height: auto;
@@ -43,6 +48,11 @@
     font-size: 1.8rem;
     font-weight: 400;
     color: #fff;
+}
+
+.about-text p::selection {
+    color: #d3051e;
+    background-color: #fff;
 }
 
 .image-ex {
@@ -80,7 +90,12 @@
     color: #fff;
 }
 
-.expertise-title:hover .svg{
+.expertise-title p::selection {
+    color: #d3051e;
+    background-color: #fff;
+}
+
+.expertise-title:hover .svg {
     transform: translateX(6.4rem);
 }
 
@@ -89,6 +104,11 @@
     font-size: 2.3rem;
     font-weight: 400;
     color: #fff;
+}
+
+.expertise-text p::selection {
+    color: #d3051e;
+    background-color: #fff;
 }
 
 .valores-container {
@@ -106,11 +126,21 @@
     color: #000;
 }
 
+.valores-container p::selection {
+    color: #fff;
+    background-color: #d3051e;
+}
+
 .valores-container span {
     font-family: 'Sulphur Point', sans-serif;
     font-size: 2.5rem;
     font-weight: 600;
     color: #000;
+}
+
+.valores-container span::selection {
+    color: #fff;
+    background-color: #d3051e;
 }
 
 .div-vertical {
@@ -172,13 +202,18 @@
     color: #fff;
 }
 
+.timeline-title p::selection {
+    color: #d3051e;
+    background-color: #fff;
+}
+
 .svg-timeline {
     width: 2%;
     height: auto;
     transition: 0.5s ease;
 }
 
-.timeline-title:hover .svg-timeline{ 
+.timeline-title:hover .svg-timeline {
     transform: translateX(7.4rem);
 }
 
@@ -189,10 +224,20 @@
     color: #fff;
 }
 
+.vertical-title::selection {
+    color: #d3051e;
+    background-color: #fff;
+}
+
 .vertical-subtitle {
     font-size: 1.1rem;
     font-weight: 500;
     color: #858585;
+}
+
+.vertical-subtitle::selection {
+    color: #d3051e;
+    background-color: #fff;
 }
 
 .vertical-timeline::before {

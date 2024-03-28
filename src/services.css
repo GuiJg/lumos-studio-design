@@ -27,15 +27,30 @@
     color: #fff;
 }
 
+.service-title h2::selection {
+    color: #d3051e;
+    background-color: #fff;
+}
+
 .service-title strong {
     font-weight: 400;
     color: #ffffff80;
+}
+
+.service-title strong::selection {
+    color: #d3051e;
+    background-color: #fff;
 }
 
 .service-title p {
     font-size: 1.2rem;
     font-weight: 300;
     color: #fff;
+}
+
+.service-title p::selection {
+    color: #d3051e;
+    background-color: #fff;
 }
 
 .main__action {
@@ -111,7 +126,7 @@
     margin: 10% 5% 5% 5%;
 }
 
-.splide__list{
+.splide__list {
     overflow-x: visible !important;
 }
 
@@ -143,6 +158,11 @@
     color: #fff;
 }
 
+.services span::selection {
+    color: #d3051e;
+    background-color: #fff;
+}
+
 .service-item {
     display: flex;
     flex-direction: column;
@@ -160,6 +180,11 @@
     width: 100%;
 }
 
+.service-item h2::selection {
+    color: #d3051e;
+    background-color: #fff;
+}
+
 .service-item p {
     font-size: 1.3rem;
     font-weight: 300;
@@ -167,14 +192,25 @@
     color: #fff;
 }
 
-.text-item{
+.service-item::selection {
+    color: #d3051e;
+    background-color: #fff;
+}
+
+.text-item {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5rem;
 }
 
-.border{
+
+.text-item p::selection {
+    color: #d3051e;
+    background-color: #fff;
+}
+
+.border {
     display: flex;
     justify-content: flex-start;
     background-color: #D3051E;
@@ -182,7 +218,7 @@
     height: 0.1rem;
 }
 
-.lumos-different{
+.lumos-different {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -192,7 +228,7 @@
     background-color: #D3051E;
 }
 
-.lumos-different h3{
+.lumos-different h3 {
     font-family: 'Sulphur Point', sans-serif;
     font-size: 2rem;
     font-weight: 400;
@@ -201,12 +237,22 @@
     width: 100%;
 }
 
-.lumos-different h3 strong{
+.lumos-different h3::selection {
+    color: #d3051e;
+    background-color: #fff;
+}
+
+.lumos-different h3 strong {
     color: #fff;
     font-weight: 400;
 }
 
-.different-container{
+.lumos-different h3 strong::selection {
+    color: #d3051e;
+    background-color: #fff;
+}
+
+.different-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -214,7 +260,7 @@
     padding: 5%;
 }
 
-.different-item{
+.different-item {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -222,7 +268,7 @@
     gap: 1.5rem;
 }
 
-.different-item span{
+.different-item span {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -232,11 +278,21 @@
     color: #fff;
 }
 
-.different-item p{
+.different-item span::selection {
+    color: #d3051e;
+    background-color: #fff;
+}
+
+.different-item p {
     color: #fff;
 }
 
-.bottom-section-service{
+.different-item p::selection {
+    color: #d3051e;
+    background-color: #fff;
+}
+
+.bottom-section-service {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -244,9 +300,14 @@
     padding-top: 10%;
 }
 
-.bottom-section-service h2{
+.bottom-section-service h2 {
     font-family: 'Sulphur Point', sans-serif;
     font-size: 4rem;
     font-weight: 400;
     color: #fff;
+}
+
+.bottom-section-service h2::selection {
+    color: #d3051e;
+    background-color: #fff;
 }
