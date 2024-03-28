@@ -89,7 +89,7 @@ function BannerSection() {
                             </div>
                             <div className="title-banner">
                                 <h1>
-                                    Sua tragetória é <br />
+                                    Sua trajetória é <br />
                                     a nossa prioridade.
                                 </h1>
                             </div>
